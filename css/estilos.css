@@ -1,0 +1,354 @@
+/* PRIMERA PANTALLA!!!!*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* COLORES
+#fa8482 -  #ffd780 - #a5ac42 - #fb97d5  #f8f3e0 - #EFE8E4
+*/
+
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #EFE8E4;
+}
+
+.header__logo {
+    width: 10%;
+}
+
+/* no me quedo otra que poner un id */
+
+#header__items {
+    color: black;
+    text-decoration: none;
+}
+
+#header__items:hover {
+    color: #fa8482;
+}
+
+.cover__contenedor {
+    padding: 0;
+}
+
+.cover__img {
+    background-size: cover;
+}
+
+.cover__textos {
+    padding-bottom: 26.25rem;
+}
+
+.cards {
+    width: 80vw;
+    /* height: 20vh; */
+}
+
+.card--textom {
+    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4.6rem;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.cover__subtexto {
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+
+.card-textos {
+    padding-bottom: 12.25rem;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.inicio {
+    width: 100vw;
+    height: 60vh;
+    /* background-color: #ffd780; */
+    align-items: center;
+}
+
+.inicio__cards {
+    margin-top: 3%;
+}
+
+.inicio h1 {
+    grid-area: titulo;
+    grid-row: 1/5;
+    justify-self: center;
+
+    font-size: 2rem;
+}
+
+.inicio__productos {
+    grid-area: productos;
+    grid-row: 5/10;
+    align-items: center;
+}
+
+.inicio__promociones {
+    grid-area: promociones;
+    grid-row: 5/10;
+
+}
+
+.inicio__envios {
+    grid-area: envios;
+    grid-row: 5/10;
+
+}
+
+.inicio__img {
+    width: 27%;
+    margin-bottom: 5%;
+    align-items: center;
+    color: black;
+}
+
+
+.iconify .inicio__icono {
+    align-items: center;
+    color: #ffd780;
+}
+
+
+.inicio__subtitulo {
+    align-items: center;
+}
+
+
+.footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: #EFE8E4;
+    margin-top: 4%;
+    /* NO SÉ PORQUE QUEDA ESE ESPACIO ABAJO */
+    /* margin-bottom: 0; */
+}
+
+.footer__texto {
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    color: #000000;
+}
+
+.contactanos__svg {
+    padding: 0;
+    width: 10.666667%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    position: absolute;
+}
+
+.grid .grid__circulo--naranja {
+    /* position: absolute; */
+
+    grid-column: 10/11;
+    grid-row: 1;
+    margin-top: 3vh;
+}
+
+.grid .grid__circulo--rosa {
+    grid-column: 2/3;
+    grid-row: 3;
+    margin-top: 3%;
+
+}
+
+.grid .grid__circulo--rosaoscuro {
+    grid-column: 10/11;
+    grid-row: 2;
+    margin-right: 4vw;
+}
+
+.img__circulo--naranja {
+    width: 50%;
+    margin-left: -4vw;
+}
+
+.img__circulo--rosa {
+    width: 60%;
+    margin-top: -11vh;
+}
+
+.img__circulo--rosaoscuro {
+    width: 160%;
+    margin-top: 4vh;
+}
+
+
+.grid .grid__circulo--naranja-dos {
+    /* position: absolute; */
+
+    grid-column: 3/4;
+    grid-row: 2;
+
+    margin-top: -5vh;
+
+}
+
+.grid .grid__circulo--rosa-dos {
+    grid-column: 10/11;
+    grid-row: 4;
+
+}
+
+.grid .grid__circulo--rosaoscuro-dos {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.img__circulo--naranja-dos {
+    width: 100%;
+
+}
+
+.img__circulo--rosa-dos {
+    width: 65%;
+    margin-right: 2vh;
+}
+
+.img__circulo--rosaoscuro-dos {
+    width: 75%;
+}
+
+
+.grid .grid__circulo--verdeyrosa {
+    grid-column: 2/3;
+    grid-row: 4;
+    margin-top: -2vw;
+
+
+}
+
+.grid .grid__circulo--rosayamarillo {
+    grid-column: 3/4;
+    grid-row: 4;
+}
+
+
+.grid .grid__circulo--rojo {
+    grid-column: 11/12;
+    grid-row: 3;
+}
+
+.grid .grid__circulo--verdeyrosa-dos {
+    grid-column: 11/12;
+    grid-row: 1;
+}
+
+.img__circulo--verdeyrosa {
+    width: 105%;
+    margin-left: -5vw;
+}
+
+.img__circulo--rosayamarillo {
+    width: 80%;
+    margin-left: 9vh;
+    margin-top: -5vw;
+
+}
+
+.img__circulo--rojo {
+    width: 105%;
+}
+
+.img__circulo--verdeyrosa-dos {
+    width: 80%;
+}
+
+
+.formulario {
+    margin-top: 2%;
+}
+
+.formulario__titulo {
+    font-size: 3rem;
+}
+
+.formulario__contenedor {
+    border: 2px solid rgba(250, 132, 130, 0.3);
+    border-radius: 3%;
+}
+
+.formulario__labels {
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.formulario__items--btn {
+    margin-top: 3%;
+    padding: 1% 6%;
+    background: #fa8482;
+    font-family: 'Merriweather', serif;
+    font-weight: 560;
+    color: black;
+    justify-content: center;
+}
+
+.formulario__items--reset {
+    margin-top: 3%;
+    padding: 1% 5%;
+    font-family: 'Merriweather', serif;
+    font-weight: 360;
+
+    border: 1px solid black;
+
+}
+
+/* MEDIA QUERIES PRIMERA PANTALLA */
+
+/* 
+@media screen and (min-width: 992px) {
+    .header__logo {
+        width: 22%;
+    }
+
+} */
+/* 
+@media screen and (min-width: 576px) {
+
+    .header__logo {
+        width: 22%;
+    }
+
+} */
+
+/* 
+@media screen and (max-width: 576px) {
+
+    .header__logo {
+        width: 22%;
+    }
+} */
