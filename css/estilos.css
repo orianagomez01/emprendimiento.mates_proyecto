@@ -243,6 +243,7 @@ h1 {
 }
 
 
+
 .grid .grid__circulo--verdeyrosa {
     grid-column: 2/3;
     grid-row: 4;
@@ -287,6 +288,30 @@ h1 {
     width: 80%;
 }
 
+
+.img__circulo--naranja,
+.img__circulo--rosa,
+.img__circulo--rosaoscuro-dos,
+.img__circulo--rosa-dos,
+.img__circulo--rosaoscuro,
+.img__circulo--verdeyrosa,
+.img__circulo--rosayamarillo,
+.img__circulo--rojo,
+.img__circulo--verdeyrosa-dos,
+.img__circulo--naranja-dos {
+    animation: animacion-circulos 3s ease-in-out forwards normal;
+    clip-path: circle(0% at 50% 50%);
+
+}
+
+
+@keyframes animacion-circulos {
+    to {
+        clip-path: circle(50% at 50% 50%);
+
+    }
+
+}
 
 .formulario {
     margin-top: 2%;
