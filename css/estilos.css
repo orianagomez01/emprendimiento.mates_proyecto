@@ -398,6 +398,7 @@ h1 {
 
 .nosotros__imagenes {
     width: 50%;
+    /* margin: 0; */
 }
 
 .nosotros__img--vector {
@@ -418,6 +419,10 @@ h1 {
 
 }
 
+
+.nosotros__descripcion--textos {
+    width: 50%;
+}
 
 /* MEDIA QUERIES PRIMERA PANTALLA */
 
