@@ -49,7 +49,7 @@
     <!-- MENU DE NAVEGACION -->
     <header class="header">
       <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-md navbar-light nav_items">
           <div class="row">
           <a href="../index.html" class="navbar-brand ">
        
@@ -68,7 +68,7 @@
 
 <div class="row">
       <div class="collapse navbar-collapse headerMenu" id="navbarToggleExternalContent">
-        <ul class="navbar-nav text-center ">
+        <ul class="navbar-nav text-center">
           <li>
             <a class="nav-link" id="header__items"  href="./nosotros.html">Nosotros</a>
           </li>
@@ -91,18 +91,32 @@
 
     <!-- 2 COLUMNAS -->
     <section class="nosotros">
-      <h1 class="secciones__titulos">
+      <h1 class="secciones__titulos text-center">
         Nuestra visión y misión como emprendimiento
       </h1>
-      <article class="nosotros__descripcion">
-        <!-- FOTOS QUE LUEGO SE CAMBIARÁN  -->
+  
+        <article class="row align-content-center nosotros__imagenes">
+          <article class="col">
         <img
-          class="nosotros__img"
-          src=""
+          class="nosotros__img--vector"
+          src="../img/vector-rosa.svg"
+          alt="Imagen de un vector que acompaña al texto"
+        />
+        <img
+          class="nosotros__img--matesrosa carousel-caption d-md-block"
+          src="../img/img-1-nosotros.svg"
           alt="Imagen de mates que acompañan al texto"
         />
-        <!-- </article>  -->
-        <article class="nosotros__descripcion--textos">
+        <img
+          class="nosotros__img--matesvangogh carousel-caption d-md-block"
+          src="../img/img-2-nosotros.svg"
+          alt="Imagen de mates que acompañan al texto"
+        />
+      </article>
+      </article>
+      <article class="nosotros__descripcion">
+        <article class="row align-content-center nosotros__descripcion--textos">
+          <article class="col">
           <p class="nosotros__textos">
             Nuestra misión como emprendedores es brindar la oportunidad de un
             mate de madera único y artesanal a cualquiera que esté dispuesto a
@@ -110,12 +124,14 @@
           </p>
           <!-- </article> -->
           <!-- <article class="nosotros__descripcion">  -->
+            <!-- <article class="col"> -->
           <p class="nosotros__textos">
             Por otro lado nuestra visión es volver a acercar a quienes fueron
             distanciados durante la actual pandemia, conectándolos esta vez
             mediante la unidad de un mate personal y artesanal.
           </p>
         </article>
+      </article>
       </article>
     </section>
 

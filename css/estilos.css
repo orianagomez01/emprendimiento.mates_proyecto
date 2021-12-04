@@ -390,6 +390,35 @@ h1 {
 
 }
 
+/* PANTALLA DE NOSOTROS */
+
+.secciones__titulos {
+    margin-top: 3%;
+}
+
+.nosotros__imagenes {
+    width: 50%;
+}
+
+.nosotros__img--vector {
+    padding-top: 7%;
+}
+
+.nosotros__img--matesrosa {
+    z-index: 1;
+    width: 25%;
+    margin-bottom: -22%;
+    margin-left: 12%;
+}
+
+.nosotros__img--matesvangogh {
+    width: 25%;
+    margin-left: -5%;
+    margin-bottom: -12%;
+
+}
+
+
 /* MEDIA QUERIES PRIMERA PANTALLA */
 
 /* DE 575 PARA ABAJO */
