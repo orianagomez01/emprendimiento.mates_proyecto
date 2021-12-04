@@ -123,6 +123,20 @@ h1 {
 
 }
 
+.img__icono--mate {
+    width: 70%;
+}
+
+.img__icono--envios svg {
+    width: 23%;
+    height: 50%;
+}
+
+.img__icono--promociones svg {
+    width: 23%;
+    height: 50%;
+}
+
 .inicio__img {
     width: 27%;
     margin-bottom: 5%;
@@ -474,6 +488,10 @@ h1 {
         left: 2px;
     }
 
+    .footer {
+        margin-top: 13%;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -509,6 +527,10 @@ h1 {
         left: 7%;
     }
 
+
+    .footer {
+        margin-top: 9%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -524,6 +546,7 @@ h1 {
         font-size: 1.5rem;
     }
 
+
     .nav_items {
         padding-top: 0.5rem;
     }
@@ -534,7 +557,10 @@ h1 {
 
         line-height: 32px;
         width: 72%;
+    }
 
+    .footer {
+        margin-top: 3%;
     }
 }
 
