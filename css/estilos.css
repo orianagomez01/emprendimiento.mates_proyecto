@@ -393,7 +393,7 @@ h1 {
 /* MEDIA QUERIES PRIMERA PANTALLA */
 
 /* DE 575 PARA ABAJO */
-@media (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
     .cover__textos {
         padding-bottom: 7.25rem;
     }
@@ -412,10 +412,22 @@ h1 {
         margin: 0;
     }
 
+    .inicio {
+        height: 96vh;
+    }
+
+    .inicio__cards {
+        text-align: center;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
 }
 
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
 
     .cover__textos {
         padding-bottom: 10.25rem;
@@ -446,13 +458,25 @@ h1 {
         left: 2px;
     }
 
+    .inicio {
+        height: 96vh;
+    }
+
+    .inicio__cards {
+        text-align: center;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
 
 }
 
 
 /* TEXTOS */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .cover__textos {
         padding-bottom: 15.25rem;
     }
@@ -488,13 +512,17 @@ h1 {
         left: 2px;
     }
 
+    .inicio {
+        height: 47vh;
+    }
+
     .footer {
         margin-top: 13%;
     }
 
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .carrousel-caption {
         bottom: -6.75rem;
     }
@@ -533,7 +561,7 @@ h1 {
     }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .cover__textos {
         padding-bottom: 24.25rem;
     }
@@ -554,9 +582,13 @@ h1 {
 
     .card-textos {
         padding-bottom: 9.25rem;
-
+        left: 13%;
         line-height: 32px;
         width: 72%;
+    }
+
+    .inicio {
+        height: 67vh;
     }
 
     .footer {
@@ -564,7 +596,34 @@ h1 {
     }
 }
 
+@media screen and (min-width: 1400px) {
 
+    h1 {
+        font-size: 4.6rem;
+    }
+
+    .nav_items {
+        padding-top: 1.2rem;
+    }
+
+    .header__logo {
+        width: 12%;
+
+    }
+
+    .card-textos {
+        font-size: 1.5rem;
+        padding-bottom: 12.25rem;
+        left: 13%;
+        line-height: 32px;
+        width: 72%;
+    }
+
+    .inicio {
+        height: 50vh;
+    }
+
+}
 
 
 
