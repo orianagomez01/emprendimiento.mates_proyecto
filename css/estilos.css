@@ -14,7 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+#header {
     width: 100vw;
     height: 10vh;
     background-color: #EFE8E4;
@@ -29,6 +29,7 @@ body {
 #header__items {
     color: black;
     text-decoration: none;
+    /* margin-right: 24%; */
 }
 
 #header__items:hover {
@@ -441,10 +442,16 @@ h1 {
     }
 
 
+    .navbar__btn {
+        padding: 0;
+    }
+
+    /* 
+
     .header__logo {
         width: 20%;
         margin: 0;
-    }
+    } */
 
     .inicio {
         height: 96vh;
@@ -476,8 +483,12 @@ h1 {
     }
 
     .header__logo {
-        width: 10%;
+        width: 20%;
         margin: 0;
+    }
+
+    .navbar__btn {
+        padding: 0;
     }
 
     .card--textom {
@@ -525,13 +536,10 @@ h1 {
         font-weight: 500;
     }
 
-    .header__logo {
-        width: 15%;
-    }
 
     .header__logo {
-        width: 38%;
-        margin-top: -3%;
+        width: 30%;
+        margin-top: 0%;
     }
 
     .nav_items {
@@ -611,6 +619,7 @@ h1 {
 
     .nav_items {
         padding-top: 0.5rem;
+        /* margin-left: 3%; */
     }
 
 
@@ -636,14 +645,12 @@ h1 {
         font-size: 4.6rem;
     }
 
-    .nav_items {
-        padding-top: 1.2rem;
-    }
 
     .header__logo {
-        width: 12%;
+        width: 10%;
 
     }
+
 
     .card-textos {
         font-size: 1.5rem;
@@ -658,34 +665,3 @@ h1 {
     }
 
 }
-
-
-
-
-
-
-
-
-/* 
-@media screen and (min-width: 992px) {
-    .header__logo {
-        width: 22%;
-    }
-
-} */
-/* 
-@media screen and (min-width: 576px) {
-
-    .header__logo {
-        width: 22%;
-    }
-
-} */
-
-/* 
-@media screen and (max-width: 576px) {
-
-    .header__logo {
-        width: 22%;
-    }
-} */
