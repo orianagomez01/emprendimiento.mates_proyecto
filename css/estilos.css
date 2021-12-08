@@ -460,17 +460,23 @@ h1 {
         padding: 0;
     }
 
-    .footer {
-        height: 37vh;
+
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: -6%;
+        margin-left: 26%;
     }
 
-    /* 
 
-    
-    .header__logo {
-        width: 20%;
-        margin: 0;
-    } */
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: 15%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
 
     .inicio {
         height: 83vh;
@@ -484,6 +490,15 @@ h1 {
         width: 90%;
         padding-left: 10%;
     }
+
+    .footer_contacto {
+        margin-top: 5%;
+    }
+
+    .footer {
+        height: 64vh;
+    }
+
 }
 
 
@@ -535,8 +550,29 @@ h1 {
         padding-left: 10%;
     }
 
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: -35%;
+        margin-left: 26%;
+    }
+
+
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: -15%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+
+    .footer_contacto {
+        margin-top: 5%;
+    }
+
     .footer {
-        height: 44vh;
+        height: 64vh;
     }
 
 
@@ -582,10 +618,32 @@ h1 {
         height: 55vh;
     }
 
-    .footer {
-        height: 44vh;
-        /* margin-top: 13%; */
+    .nosotros__img--matesrosa {
+        width: 34%;
+        margin-bottom: -32%;
+        margin-left: 23%;
     }
+
+
+    .nosotros__img--matesvangogh {
+        width: 40%;
+        margin-left: -1%;
+        margin-bottom: -15%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+
+
+    .footer_contacto {
+        margin-top: 0%;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
 
 }
 
@@ -626,6 +684,25 @@ h1 {
         height: 55vh;
     }
 
+
+    .nosotros__img--matesrosa {
+        width: 31%;
+        margin-left: 20%;
+        margin-bottom: -37%;
+    }
+
+
+    .nosotros__img--matesvangogh {
+        width: 33%;
+        margin-left: -1%;
+        margin-bottom: -21%;
+
+    }
+
+    .nosotros__descripcion--textos {
+        width: 50%;
+    }
+
     .footer {
         height: 44vh;
     }
@@ -662,6 +739,24 @@ h1 {
         height: 60vh;
     }
 
+    .nosotros__img--matesrosa {
+        width: 24%;
+        margin-left: 14%;
+        margin-bottom: -10%;
+    }
+
+
+
+    .nosotros__img--matesvangogh {
+        width: 28%;
+        margin-left: -5%;
+        margin-bottom: -1%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 50%;
+    }
+
     .footer {
         height: 48vh;
     }
@@ -690,6 +785,22 @@ h1 {
 
     .inicio {
         height: 50vh;
+    }
+
+    .nosotros__img--matesrosa {
+        width: 24%;
+        margin-left: 12%;
+        margin-bottom: -14%;
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 28%;
+        margin-left: -4%;
+        margin-bottom: -7%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 50%;
     }
 
     .footer {
