@@ -496,6 +496,10 @@ h1 {
     padding-top: 5%;
 }
 
+.cards__img--set2 {
+    width: 102%;
+}
+
 .cards__descripcion {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -593,6 +597,23 @@ h1 {
         height: 64vh;
     }
 
+    .productos__cards {
+        width: 100vw;
+        height: 42vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+
+    .sets__cards {
+        width: 100vw;
+        height: 42vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
 }
 
 
@@ -670,6 +691,23 @@ h1 {
     }
 
 
+    .productos__cards {
+        width: 150vw;
+        height: 42vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+
+    .sets__cards {
+        width: 100vw;
+        height: 44vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
 }
 
 
@@ -738,6 +776,30 @@ h1 {
         height: 40vh;
     }
 
+    .productos__cards {
+        width: 60vw;
+        height: 50vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 66vw;
+        height: 60vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .cards__img--set1 {
+        padding-bottom: 5%;
+    }
+
+    .cards__img--set2 {
+        padding-top: 3%;
+        /* padding-bottom: -4%; */
+    }
 
 }
 
@@ -800,6 +862,23 @@ h1 {
     .footer {
         height: 44vh;
     }
+
+
+    .productos__cards {
+        width: 50vw;
+        height: 50vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 50vw;
+        height: 63vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -854,6 +933,33 @@ h1 {
     .footer {
         height: 48vh;
     }
+
+
+    .productos__cards {
+        width: 24vw;
+        height: 42vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 26vw;
+        height: 53vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .cards__img--set1 {
+        padding-bottom: 5%;
+    }
+
+    .cards__img--set2 {
+        /* padding-bottom: 1%; */
+        padding-top: 0%;
+        /* padding-bottom: -4%; */
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -899,6 +1005,23 @@ h1 {
 
     .footer {
         height: 48vh;
+    }
+
+
+    .productos__cards {
+        width: 20vw;
+        height: 42vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
+    }
+
+    .sets__cards {
+        width: 20vw;
+        height: 54vh;
+        background-color: #f8f3e0;
+        border-radius: 9px;
+        margin-bottom: 2%;
     }
 
 
