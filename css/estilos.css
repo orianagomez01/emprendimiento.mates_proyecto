@@ -60,6 +60,9 @@ body {
 
 .cover__img {
     background-size: cover;
+    animation: cover-animacion 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
 }
 
 .cover__textos {
@@ -69,6 +72,18 @@ body {
 .cards {
     width: 80vw;
     /* height: 20vh; */
+}
+
+.card,
+.inicio__cards {
+    animation: animacion-cards 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    clip-path: circle(0% at 50% 50%);
+}
+
+@keyframes animacion-cards {
+    to {
+        clip-path: circle(100% at 50% 50%);
+    }
 }
 
 .card--textom {
@@ -103,7 +118,13 @@ h1 {
 
 }
 
+/* ANIMACION CARD!!!!  */
 
+@keyframes cover-animacion {
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
 
 .inicio {
     width: 100vw;
@@ -424,11 +445,28 @@ h1 {
     padding-top: 7%;
 }
 
+.nosotros__textos {
+    animation: textos-animacion 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+
+
+}
+
+@keyframes textos-animacion {
+    to {
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
+    }
+}
+
 .nosotros__img--matesrosa {
     z-index: 1;
     width: 25%;
     margin-bottom: -22%;
     margin-left: 12%;
+
+    animation: animacion-cards 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    clip-path: circle(0% at 50% 50%);
 }
 
 .nosotros__img--matesvangogh {
@@ -436,6 +474,8 @@ h1 {
     margin-left: -5%;
     margin-bottom: -12%;
 
+    animation: animacion-cards 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
+    clip-path: circle(0% at 50% 50%);
 }
 
 
@@ -494,6 +534,11 @@ h1 {
 .cards__img--azucarera {
     padding-top: 5%;
     width: 45%;
+}
+
+.cards__img--tabla {
+    padding-top: 5%;
+    width: 57%;
 }
 
 .cards__img--set1 {
