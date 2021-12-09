@@ -38,182 +38,240 @@
   </symbol>
 </svg>
 
-    <!-- MENU DE NAVEGACION -->
-    <header class="header">
+   <!-- MENU DE NAVEGACION -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="header">
       <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light">
-          <div class="row">
-          <a href="../index.html" class="navbar-brand ">
-       
-        <img
-          class="row header__logo d-inline-block align-top"
+        <div class="container">
+         <a class="navbar-brand" href="/index.html"> 
+           <img 
+          class="header__logo"
           src="../img/mate-logo.png"
-          alt="Logo de Arsty MAI"
-        />
-      </a>
-
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  </div>
-
-<div class="row">
-      <div class="collapse navbar-collapse headerMenu" id="navbarToggleExternalContent">
-        <ul class="navbar-nav text-center ">
-          <li>
-            <a class="nav-link" id="header__items"  href="./nosotros.html">Nosotros</a>
-          </li>
-
-          <li>
-            <a class="nav-link" id="header__items"  href="./productos.html">Productos</a>
-          </li>
-          <li>
-            <a class="nav-link" id="header__items" href="./clientes.html">Clientes</a>
-          </li>
-          <li>
-            <a class="nav-link" id="header__items"  href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
+          alt="Logo de Arsty MAI" /> 
+        </a>
       </div>
-  </div>
-  
+
+        <button class="navbar-toggler navbar__btn col-sm-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="pages/clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
+
     <section class="productos">
+
       <article class="clientes__titulos">
-        <h1 class="secciones__titulos">Nuestros productos</h1>
+        <h1 class="secciones__titulos text-center">Nuestros productos</h1>
         <!-- SE HARÁN 3 COLUMNAS -->
-        <h2 class="productos__subtitulo">
+        <h2 class="productos__subtitulo text-center">
           Consegui acá tu mate y empezá a compartir momentos únicos
         </h2>
       </article>
 
-      <article class="productos__contenedor">
-        <article class="productos__cards">
-          <img
-            class="cards__img"
-            src="../img/mate_geometrico.jpg"
-            alt="Mate geométrico"
-          />
+      <article class="productos__contenedor container">
+      
+        <article class="row">
+            <article class="productos__cards col-3">
+              <img
+              class="cards__img"
+              src="../img/mate_geometrico.jpg"
+              alt="Mate geométrico"
+              />
+              <article class="card-body">
           <h3 class="cards__titulo">Geométrico</h3>
           <p class="cards__descripcion">
             Mate de algarrobo geométrico (de aproximadamente 9cm), con cuatro
             lados y bombilla de regalo.
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$700</p>
         </article>
+        </article>
+      </article>
 
-        <article class="productos__cards">
+        <article class="productos__cards col-3 offset-1">
+          <article class="d-flex justify-content-center">
           <img
-            class="cards__img"
-            src="../img/mate_perita.jpg"
+            class="cards__img img-fluid "
+            src="../img/mate-en-png.png"
             alt="Mate perita"
           />
+        </article>
+
+        <article class="card-body">
           <h3 class="cards__titulo">Perita</h3>
           <p class="cards__descripcion">
             Mate perita (de aproximadamente 9cm) con bombilla de regalo.
           </p>
-          <p class="cards__precio">$600</p>
+          <article class="d-flex justify-content-end">
+          <p class="cards__precio text-right">$600</p>
+        </article>
+        </article>
         </article>
 
-        <article class="productos__cards">
+        <article class="productos__cards col-3 offset-1">
           <img
             class="cards__img"
             src="../img/tabla.jpg"
             alt="Imagen de una tabla"
           />
+          <article class="card-body">
           <h3 class="cards__titulo">Tabla</h3>
           <p class="cards__descripcion">
             Tabla de 30 centímetros de largo y 10 por alto con un calado.
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$750</p>
         </article>
+        </article>
+        </article>
+      </article>
 
-        <article class="productos__cards">
-          <!-- ME FALTA LA IMG -->
-          <img class="cards__img" src="" alt="Imagen de una cuchara" />
+<!-- 2 FILA!! -->
+      <article class="row">
+        <article class="productos__cards col-4">
+          <article class="d-flex justify-content-center">
+          <img class="cards__img--cuchara img-fluid" src="../img/cuchara-en-png.png" alt="Imagen de una cuchara" />
+          </article>
+
+          <article class="card-body">
           <h3 class="cards__titulo">Cuchara</h3>
           <p class="cards__descripcion">
             Cuchara de 12 centímetros como para yerba o azúcar.
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$180</p>
         </article>
+          </article>
+        </article>
 
-        <article class="productos__cards">
-          <!-- ME FALTA LA IMG -->
-          <img class="cards__img" src="" alt="Imagen de cuencos" />
+        <article class="productos__cards col-3 offset-1">
+          <article class="d-flex justify-content-center">
+          <img class="cards__img--cuenco img-fluid" src="../img/cuenco-en-png.png" alt="Imagen de cuencos" />
+        </article>
+
+        <article class="card-body">
           <h3 class="cards__titulo">Cuencos</h3>
           <p class="cards__descripcion">
             Cuencos de 8 centímetros de diámetro por 4 de alto.
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$600</p>
         </article>
+        </article>
+        </article>
 
-        <article class="productos__cards">
+        <article class="productos__cards col-3 offset-1">
+          <article class="d-flex justify-content-center">
           <img
-            class="cards__img"
-            src="../img/yerbera_o_azucarera.jpg"
+            class="cards__img--azucarera img-fluid"
+            src="../img/azucarera-en-png.png"
             alt="Imagen de Yerbera y Azucarera"
           />
+        </article>
+
+        <article class="card-body">
           <h3 class="cards__titulo titulo--yerbera">Yerbera o Azucarera</h3>
           <p class="cards__descripcion">
             Yerbera o azucarera con tapa (de aproximadamente 11 cm).
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$750</p>
         </article>
+        </article>
+      </article>
+    </article>
       </article>
     </section>
 
     <!-- 2 COLUMNAS -->
     <section class="sets">
-      <h2 class="sets__titulo">Sets de mate</h2>
-      <article class="cards__contenedor">
-        <article class="productos__cards">
+      <h2 class="sets__titulo text-center">Sets de mate</h2>
+
+      <article class="container">
+      <article class="row justify-content-center">
+ 
+        <article class="sets__cards  col-6">
+ <article class="d-flex justify-content-center">
           <img
-            class="cards__img"
-            src="../img/set_num1.jpg"
+            class="cards__img--set1 img-fluid"
+            src="../img/set-en-png-numero1.png"
             alt="Imagen de un set de mate"
           />
+ </article>
+
+ <article class="card-body">
           <h3 class="cards__titulo">Set Número 1</h3>
-          <p class="sets__descripcion">
+          <p class="sets__descripcion col-5">
             Mate perita Yerbera/azucarera Cuenco Cuchara Yerba y Azúcar
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$2100</p>
         </article>
-
-        <article class="productos__cards">
-          <img
+        </article>
+        </article>
+        
+        <article class="sets__cards col-6 offset-1">
+          <article class="d-flex justify-content-center">
+          <!-- SACARLE FOTOS PARA EL SEGUNDO SET -->
+            <img
             class="cards__img"
             src="../img/set_num2.jpg"
             alt="Imagen de otro set de mate"
           />
+        </article>
+        <article class="card-body">
           <h3 class="cards__titulo">Set Número 2</h3>
-          <p class="sets__descripcion setdos--descripcion">
+          <p class="sets__descripcion col-5">
             Mate + Bombilla Cuenco de 8cm Yerba y azúcar
           </p>
+          <article class="d-flex justify-content-end">
           <p class="cards__precio">$1300</p>
         </article>
+        </article>
       </article>
+      </article>
+    </article>
     </section>
 
-    <footer class="footer">
+
+
+<!-- FOOTER !!!!!!!!!!!!!! -->
+
+    <footer class="footer h-100">
       <div class="container">
         <div class="py-5">
           <div class="row">
-            <div class="col-8">
+            <div class="col-3 col-sm-12 col-md-8 col-xl-8">
               <h5>Arsty Mai</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Nosotros</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Productos</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Clientes</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Contacto</a></li>
+                <li class="nav-item mb-2"><a href="pages/nosotros.html" class="nav-link p-0  footer__texto" id="footer_items">Nosotros</a></li>
+                <li class="nav-item mb-2"><a href="pages/productos.html" class="nav-link p-0 footer__texto" id="footer_items">Productos</a></li>
+                <li class="nav-item mb-2"><a href="pages/clientes.html" class="nav-link p-0  footer__texto" id="footer_items">Clientes</a></li>
+                <li class="nav-item mb-2"><a href="pages/contacto.html" class="nav-link p-0  footer__texto" id="footer_items">Contacto</a></li>
               </ul>
             </div>
             <!--  -->
           <!-- </div> -->
-            <div class="col-4">
+            <div class="col-10 col-sm-9 col-md-4 col-xl-4 footer_contacto">
               <h5>Contactanos</h5>
               <ul class="nav flex-column justify-content-center">
                 <li class="nav-item mb-2">
@@ -243,8 +301,7 @@
             <h5 class="footer__texto">Arsty Mai, desarrollada por Oriana Gomez © 2021</h5>
             <ul class="list-unstyled d-flex">
               
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/arstymai/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
             </ul>
           </div>

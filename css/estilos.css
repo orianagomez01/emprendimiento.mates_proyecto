@@ -439,6 +439,94 @@ h1 {
     width: 50%;
 }
 
+/* PÁGINA DE PRODUCTOS!!!! */
+
+.productos__subtitulo {
+    font-family: 'Montserrat', serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.productos__cards {
+    width: 20vw;
+    height: 42vh;
+    background-color: #f8f3e0;
+    border-radius: 9px;
+    margin-bottom: 2%;
+}
+
+.sets__cards {
+    width: 20vw;
+    height: 51vh;
+    background-color: #f8f3e0;
+    border-radius: 9px;
+    margin-bottom: 2%;
+}
+
+.cards__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.cards__img {
+    width: 50%;
+    padding-top: 5%;
+}
+
+.cards__img--cuchara {
+    width: 14%;
+    padding-top: 5%;
+}
+
+.cards__img--cuenco {
+    width: 92%;
+}
+
+.cards__img--azucarera {
+    padding-top: 5%;
+    width: 45%;
+}
+
+.cards__img--set1 {
+    padding-top: 5%;
+}
+
+.cards__descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.cards__precio {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.sets__titulo {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    margin-bottom: 2%;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
 /* MEDIA QUERIES PRIMERA PANTALLA */
 
 /* DE 575 PARA ABAJO */
@@ -455,11 +543,17 @@ h1 {
         font-size: 0.7rem;
     }
 
-
     .navbar__btn {
+        background-color: #EFE8E4;
         padding: 0;
+        z-index: 2;
+
     }
 
+    .collapsed {
+        background-color: #EFE8E4;
+
+    }
 
     .nosotros__img--matesrosa {
         width: 43%;
@@ -479,7 +573,7 @@ h1 {
     }
 
     .inicio {
-        height: 83vh;
+        height: 105vh;
     }
 
     .inicio__cards {
@@ -538,7 +632,7 @@ h1 {
     }
 
     .inicio {
-        height: 105vh;
+        height: 110vh;
     }
 
     .inicio__cards {
@@ -598,7 +692,7 @@ h1 {
 
 
     .header__logo {
-        width: 30%;
+        width: 13%;
         margin-top: 0%;
     }
 
@@ -681,7 +775,7 @@ h1 {
     }
 
     .inicio {
-        height: 55vh;
+        height: 60vh;
     }
 
 

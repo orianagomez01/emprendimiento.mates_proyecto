@@ -47,47 +47,41 @@
 </svg>
 
     <!-- MENU DE NAVEGACION -->
-    <header class="header">
-      <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light nav_items">
-          <div class="row">
-          <a href="../index.html" class="navbar-brand ">
-       
-        <img
-          class="row header__logo d-inline-block align-top"
-          src="../img/mate-logo.png"
-          alt="Logo de Arsty MAI"
-        />
-      </a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" id="header">
+        <div class="container">
+          <div class="container">
+           <a class="navbar-brand" href="/index.html"> 
+             <img 
+            class="header__logo"
+            src="../img/mate-logo.png"
+            alt="Logo de Arsty MAI" /> 
+          </a>
+        </div>
 
+          <button class="navbar-toggler navbar__btn col-sm-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  </div>
-
-<div class="row">
-      <div class="collapse navbar-collapse headerMenu" id="navbarToggleExternalContent">
-        <ul class="navbar-nav text-center">
-          <li>
-            <a class="nav-link" id="header__items"  href="./nosotros.html">Nosotros</a>
-          </li>
-
-          <li>
-            <a class="nav-link" id="header__items"  href="./productos.html">Productos</a>
-          </li>
-          <li>
-            <a class="nav-link" id="header__items" href="./clientes.html">Clientes</a>
-          </li>
-          <li>
-            <a class="nav-link" id="header__items"  href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-  </div>
-  
-    </nav>
-  </header>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- 2 COLUMNAS -->
     <section class="nosotros">
