@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: 10vh;
     background-color: #EFE8E4;
+    z-index: 2;
 }
 
 #navbar-nombre {
@@ -25,15 +26,14 @@ body {
     font-weight: 700;
     font-family: 'Merriweather', serif;
     font-weight: bold;
-
 }
 
-/* no me quedo otra que poner un id */
 
 #header__items {
     color: black;
     text-decoration: none;
     /* margin-right: 24%; */
+    background-color: #EFE8E4;
 }
 
 #header__items:hover {
@@ -601,13 +601,6 @@ h1 {
         font-size: 0.7rem;
     }
 
-    .navbar__btn {
-        background-color: #EFE8E4;
-        padding: 0;
-        z-index: 2;
-
-    }
-
     .collapsed {
         background-color: #EFE8E4;
 
@@ -682,15 +675,6 @@ h1 {
 
     .cover__subtexto {
         font-size: 0.8rem;
-    }
-
-    .header__logo {
-        width: 20%;
-        margin: 0;
-    }
-
-    .navbar__btn {
-        padding: 0;
     }
 
     .card--textom {
@@ -782,10 +766,6 @@ h1 {
     }
 
 
-    .header__logo {
-        width: 13%;
-        margin-top: 0%;
-    }
 
     .nav_items {
         padding-top: 0.5rem;
@@ -873,9 +853,6 @@ h1 {
         font-size: 1.2rem;
     }
 
-    .header__logo {
-        width: 15%;
-    }
 
     .nav_items {
         padding-top: 1rem;
@@ -990,7 +967,7 @@ h1 {
 
     .productos__cards {
         width: 24vw;
-        height: 42vh;
+        height: 45vh;
         background-color: #f8f3e0;
         border-radius: 9px;
         margin-bottom: 2%;
@@ -998,7 +975,7 @@ h1 {
 
     .sets__cards {
         width: 26vw;
-        height: 53vh;
+        height: 56vh;
         background-color: #f8f3e0;
         border-radius: 9px;
         margin-bottom: 2%;
@@ -1020,13 +997,6 @@ h1 {
     h1 {
         font-size: 4.6rem;
     }
-
-
-    .header__logo {
-        width: 10%;
-
-    }
-
 
     .card-textos {
         font-size: 1.5rem;
@@ -1063,7 +1033,7 @@ h1 {
 
     .productos__cards {
         width: 20vw;
-        height: 42vh;
+        height: 45vh;
         background-color: #f8f3e0;
         border-radius: 9px;
         margin-bottom: 2%;
@@ -1071,7 +1041,7 @@ h1 {
 
     .sets__cards {
         width: 20vw;
-        height: 54vh;
+        height: 57vh;
         background-color: #f8f3e0;
         border-radius: 9px;
         margin-bottom: 2%;
