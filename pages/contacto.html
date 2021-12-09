@@ -46,49 +46,39 @@
         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
       </symbol>
     </svg>
-    
-<!-- MENU DE NAVEGACIÓN !!!!!!!!!! -->
-    <header class="header">
-        <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light nav_items">
-            <div class="row">
-            <a href="../index.html" class="navbar-brand ">
-         
-          <img
-            class="row header__logo d-inline-block align-top"
-            src="../img/mate-logo.png"
-            alt="Logo de Arsty MAI"
-          />
-        </a>
   
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+   <!-- MENU DE NAVEGACION -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light" id="header">
+      <div class="container">
+        <a class="navbar-brand" id="navbar-nombre" href="../index.html">Arsty Mai</a>
+        <div class="d-flex">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-
-  <div class="row">
-        <div class="collapse navbar-collapse headerMenu" id="navbarToggleExternalContent">
-          <ul class="navbar-nav text-center ">
-            <li>
-              <a class="nav-link" id="header__items"  href="./nosotros.html">Nosotros</a>
+        
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="nosotros.html">Nosotros</a>
             </li>
-
-            <li>
-              <a class="nav-link" id="header__items"  href="./productos.html">Productos</a>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="productos.html">Productos</a>
             </li>
-            <li>
-              <a class="nav-link" id="header__items" href="./clientes.html">Clientes</a>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="clientes.html">Clientes</a>
             </li>
-            <li>
-              <a class="nav-link" id="header__items"  href="./contacto.html">Contacto</a>
+            <li class="nav-item">
+              <a class="nav-link active"  id="header__items" aria-current="page" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
+      </div>
     </div>
-    
-      </nav>
-    </header>
+    </nav>
+
+  </header>
 
 
 <!-- FOMRULARIO!!!!!! -->
@@ -178,89 +168,64 @@
         </form>
       </article>
     </article>
-    </section>
+    </section> 
 
-<!-- FOOTER DE LA PÁGINA!!!!!! -->
+    
+<!-- FOOTER !!!!!!!!!!!!!! -->
 
-    <footer class="footer">
-      <div class="container">
-        <div class="py-5">
-          <div class="row">
-            <div class="col-8">
-              <h5>Arsty Mai</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Nosotros</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Productos</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Clientes</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted footer__texto">Contacto</a></li>
-              </ul>
-            </div>
-            <!--  -->
-          <!-- </div> -->
-            <div class="col-4">
-              <h5>Contactanos</h5>
-              <ul class="nav flex-column justify-content-center">
-                <li class="nav-item mb-2">
-                  <article class="row row-cols-6">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill contactanos__svg" viewBox="0 0 16 16">
-                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-                  </svg>
-                  <p class="nav-link p-0 text-muted footer__texto justify-content-center">maithompson@gmail.com</p>
-  
-                </article>
-  
-                </li>
-              
-                <li class="nav-item mb-2 flex-">
-                  <article class="row row-cols-6">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="row bi bi-telephone-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                  </svg>
-                  <p class="nav-link p-0 text-muted footer__texto">1154867688</p>
-                  </article>
-                </li>
-              </ul>
-            </div>
-  
-          
-          <div class="d-flex justify-content-between py-4 my-4 border-top">
-            <h5 class="footer__texto">Arsty Mai, desarrollada por Oriana Gomez © 2021</h5>
-            <ul class="list-unstyled d-flex">
-              
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            </ul>
-          </div>
+<footer class="footer h-100">
+  <div class="container">
+    <div class="py-5">
+      <div class="row">
+        <div class="col-3 col-sm-12 col-md-8 col-xl-8">
+          <h5>Arsty Mai</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="pages/nosotros.html" class="nav-link p-0  footer__texto" id="footer_items">Nosotros</a></li>
+            <li class="nav-item mb-2"><a href="pages/productos.html" class="nav-link p-0 footer__texto" id="footer_items">Productos</a></li>
+            <li class="nav-item mb-2"><a href="pages/clientes.html" class="nav-link p-0  footer__texto" id="footer_items">Clientes</a></li>
+            <li class="nav-item mb-2"><a href="pages/contacto.html" class="nav-link p-0  footer__texto" id="footer_items">Contacto</a></li>
+          </ul>
         </div>
-      </div>
-      </div>
-    </footer>
+        <!--  -->
+      <!-- </div> -->
+        <div class="col-10 col-sm-9 col-md-4 col-xl-4 footer_contacto">
+          <h5>Contactanos</h5>
+          <ul class="nav flex-column justify-content-center">
+            <li class="nav-item mb-2">
+              <article class="row row-cols-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill contactanos__svg" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+              </svg>
+              <p class="nav-link p-0 text-muted footer__texto justify-content-center">maithompson@gmail.com</p>
 
-<!-- 
-    <footer class="footer">
-      <article class="footer__contenedor">
-        <h3 class="footer__subtitulo">Seguinos en nuestras redes</h3>
-        <article>
-          <span
-            class="iconify footer__icono"
-            data-icon="raphael:facebook"
-            data-height="24"
-          ></span>
+            </article>
 
-          <a href="https://www.instagram.com/arstymai/">
-            <span
-              class="iconify footer__icono"
-              data-icon="akar-icons:instagram-fill"
-              data-height="24"
-            ></span>
-          </a>
-        </article>
-        <article>
-          <h4 class="footer__texto">Arsty Mai, Oriana Gomez © 2021</h4>
-        </article>
-      </article>
-    </footer> -->
+            </li>
+          
+            <li class="nav-item mb-2 flex-">
+              <article class="row row-cols-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="row bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>
+              <p class="nav-link p-0 text-muted footer__texto">1154867688</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+
+      
+      <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <h5 class="footer__texto">Arsty Mai, desarrollada por Oriana Gomez © 2021</h5>
+        <ul class="list-unstyled d-flex">
+          
+          <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/arstymai/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  
 
 
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
