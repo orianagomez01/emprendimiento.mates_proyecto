@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="keywords" content="mates, emprendimiento, personalizados, pintura">
+<meta name="description" content="Arsty Mai es un emprendimiento que realiza mates personalizados a gusto de cada cliente que tenemos">
 
     <!-- TIPOGRAFIAS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Montserrat:wght@400;500;600;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
 
     <!-- CSS BOOTSTRAP -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <!-- MI CSS -->
-    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/estilos.css"/>
     <title>Arsty Mai</title>
   </head>
   <body>
@@ -45,40 +45,34 @@
     
 
     <header>
-
-      <nav class="navbar navbar-expand-lg navbar-light" id="header">
+      <nav class="navbar navbar-expand-md navbar-light" id="header">
         <div class="container justify-content-end">
           <a class="navbar-brand" id="navbar-nombre" href="index.html">Arsty Mai</a>
-          
-       
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar--items">
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" id="header__items" aria-current="page" href="pages/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/productos.html">Productos</a>
+                <a class="nav-link" id="header__items" aria-current="page" href="pages/productos.html">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/clientes.html">Clientes</a>
+                <a class="nav-link" id="header__items" aria-current="page" href="pages/clientes.html">Clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  id="header__items" aria-current="page" href="pages/contacto.html">Contacto</a>
+                <a class="nav-link" id="header__items" aria-current="page" href="pages/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
       </nav>
-
     </header>
 
     <!-- PRIMERA SECCIÓN - COVER-->
-    <section class="cover carousel slide"  id="carouselExampleCaptions" data-bs-ride="carousel">
+    <section class="carousel slide"  id="carouselExampleCaptions" data-bs-ride="carousel">
       <div
         class="cover__contenedor
            cover-container
@@ -90,11 +84,7 @@
         "
       >
         <!-- COVER -->
-
         <img class="cover__img h-100" src="./img/cover.png" alt="Cover" />
-
-        <!-- textos arriba de la portada  -->
-
         <div class="cover__textos carousel-caption d-md-block">
           <div class=""><h1>HACE QUE TU MATE SEA ÚNICO</h1></div>
           <div>
@@ -108,16 +98,13 @@
         <div class="row text-center"> 
             <h3 class="card-title card--textom">Nuestros Productos</h3>
     </div>
-        
         <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-           
             <div class="col">
               <div class="card">
                 <img src="./img/mate-rosa.png" class="card-img-top" alt="Mates de color rosa">
                 <div class="card-img-overlay">
                   <h5 class="card-textos carousel-caption d-md-block">EQUIPOS DE MATE</h5>
                 </div>
-                
               </div>
             </div>
 
@@ -135,7 +122,6 @@
                 <img src="./img/diseños-unicos.png" class="card-img-top" alt="Set de mate">
                 <div class="card-img-overlay">
                   <h5 class="card-textos carousel-caption d-md-block text-center">DISEÑOS ÚNICOS</h5>
-
                 </div>
              
               </div>
@@ -149,38 +135,34 @@
       </article>
 
       <article class="row row-cols-1 row-cols-md-3 g-4 justify-content-center inicio__cards"> 
-        <article class="inicio__productos">
+        <article>
           <article class="img__icono--mate">
           <img
             class="inicio__img"
             src="./img/mate-icono.svg"
-            alt="Icono de Mate"
-          />
+            alt="Icono de Mate"/>
           </article>
           <h4 class="inicio__subtitulo">Productos únicos y artesanales</h4>
           <p>Nuestros productos son 100% artesanales para que puedas tener un mate único en el mundo </p>
         </article>
 
         <!-- ICONO DE TRANSPORTE -->
-        <article class="inicio__envios">
+        <article>
           <article class="img__icono--envios">
           <span
             class="iconify inicio__icono"
-            data-icon="carbon:delivery"
-          
-          ></span>
+            data-icon="carbon:delivery"></span>
         </article>
           <h4 class="inicio__subtitulo">Envíos a todo el país</h4>
           <p>Llevamos tu compra gratis hasta tu domicilio en ordenes de compra superiores a $15000</p>
         </article>
 
-        <article class="inicio__promociones">
+        <article>
           <article class="img__icono--promociones">
           <span
-            class="iconify inicio__icono"
-            data-icon="eva:percent-outline"
-        
-          ></span>
+            class="iconify"
+            data-icon="eva:percent-outline">
+          </span>
           </article>
           <h4 class="inicio__subtitulo">Promociones y descuentos</h4>
           <p>Tenemos promociones disponibles para aprovechar y regalarle a tu familia o amigos!</p>
@@ -188,7 +170,8 @@
       </article>
     </section>
 
- 
+ <!-- footer -->
+
     <footer class="footer h-100">
       <div class="container">
         <div class="py-5">
@@ -202,9 +185,8 @@
                 <li class="nav-item mb-2"><a href="pages/contacto.html" class="nav-link p-0  footer__texto" id="footer_items">Contacto</a></li>
               </ul>
             </div>
-            <!--  -->
-          <!-- </div> -->
-            <div class="col-10 col-sm-9 col-md-4 col-xl-4 footer_contacto">
+            
+           <div class="col-10 col-sm-9 col-md-4 col-xl-4 footer_contacto">
               <h5>Contactanos</h5>
               <ul class="nav flex-column justify-content-center">
                 <li class="nav-item mb-2">
@@ -213,9 +195,7 @@
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                   </svg>
                   <p class="nav-link p-0 text-muted footer__texto justify-content-center">maithompson@gmail.com</p>
-  
                 </article>
-  
                 </li>
               
                 <li class="nav-item mb-2 flex-">
@@ -228,12 +208,10 @@
                 </li>
               </ul>
             </div>
-  
           
           <div class="d-flex justify-content-between py-4 my-4 border-top">
             <h5 class="footer__texto">Arsty Mai, desarrollada por Oriana Gomez © 2021</h5>
             <ul class="list-unstyled d-flex">
-              
               <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/arstymai/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
             </ul>

@@ -15,8 +15,6 @@ body {
 }
 
 #header {
-    width: 100vw;
-    height: 10vh;
     background-color: #EFE8E4;
     z-index: 2;
 }
@@ -32,13 +30,12 @@ body {
 #header__items {
     color: black;
     text-decoration: none;
-    /* margin-right: 24%; */
-    background-color: #EFE8E4;
 }
 
 #header__items:hover {
     color: #fa8482;
 }
+
 
 #footer__items {
     color: black;
@@ -113,12 +110,10 @@ h1 {
     font-size: 1.5rem;
     line-height: 45px;
     text-align: center;
-
     color: #FFFFFF;
 
-}
 
-/* ANIMACION CARD!!!!  */
+}
 
 @keyframes cover-animacion {
     to {
@@ -129,7 +124,6 @@ h1 {
 .inicio {
     width: 100vw;
     height: 60vh;
-    /* background-color: #ffd780; */
     align-items: center;
 }
 
@@ -137,72 +131,29 @@ h1 {
     margin-top: 3%;
 }
 
-.inicio h1 {
-    grid-area: titulo;
-    grid-row: 1/5;
-    justify-self: center;
-
-    font-size: 2rem;
-}
-
-.inicio__productos {
-    grid-area: productos;
-    grid-row: 5/10;
-    align-items: center;
-}
-
-.inicio__promociones {
-    grid-area: promociones;
-    grid-row: 5/10;
-
-}
-
-.inicio__envios {
-    grid-area: envios;
-    grid-row: 5/10;
-
-}
 
 .img__icono--mate {
     width: 70%;
 }
 
-.img__icono--envios svg {
-    width: 23%;
-    height: 50%;
-}
-
+.img__icono--envios svg,
 .img__icono--promociones svg {
     width: 23%;
     height: 50%;
 }
 
 .inicio__img {
-    width: 27%;
-    margin-bottom: 5%;
+    width: 25%;
+    margin-bottom: 3%;
     align-items: center;
     color: black;
 }
 
 
-.iconify .inicio__icono {
-    align-items: center;
-    color: #ffd780;
-}
-
-
-.inicio__subtitulo {
-    align-items: center;
-}
-
-
+/* FOOTER !! */
 .footer {
     width: 100vw;
-    height: 50vh;
     background-color: #EFE8E4;
-    margin-top: 4%;
-    /* NO SÉ PORQUE QUEDA ESE ESPACIO ABAJO */
-    /* margin-bottom: 0; */
 }
 
 .footer__texto {
@@ -217,6 +168,8 @@ h1 {
     width: 10.666667%;
 }
 
+/* FORMULARIO - GRID !!!!!! */
+
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -225,7 +178,6 @@ h1 {
 }
 
 .grid .grid__circulo--naranja {
-    /* position: absolute; */
 
     grid-column: 10/11;
     grid-row: 1;
@@ -262,7 +214,6 @@ h1 {
 
 
 .grid .grid__circulo--naranja-dos {
-    /* position: absolute; */
 
     grid-column: 3/4;
     grid-row: 2;
@@ -368,7 +319,8 @@ h1 {
 }
 
 .formulario {
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 8%;
 }
 
 .formulario__titulo {
@@ -583,6 +535,65 @@ h1 {
 
 }
 
+/* PÁGINA DE CLIENTES !!!!!!!! */
+
+.clientes {
+    height: 70vh;
+}
+
+.clientes__subtitulo {
+    font-family: 'Montserrat', serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 3%;
+    padding-right: 4%;
+}
+
+.clientes__cards {
+    width: 30vw;
+    height: 30vh;
+}
+
+.cards__contenedor {
+    box-shadow: #b9b9b926 4px 4px 10px;
+    background-color: #EFE8E4;
+}
+
+.clientes__img {
+    border-radius: 50%;
+    border: 6px solid rgb(235, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 8px;
+    z-index: 99;
+}
+
+.card {
+    border: none;
+}
+
+.user-content h3 {
+    padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+    color: #000000;
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.ratings i {
+    color: rgb(255, 208, 0);
+}
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* MEDIA QUERIES PRIMERA PANTALLA */
@@ -599,11 +610,6 @@ h1 {
 
     .cover__subtexto {
         font-size: 0.7rem;
-    }
-
-    .collapsed {
-        background-color: #EFE8E4;
-
     }
 
     .nosotros__img--matesrosa {
@@ -660,17 +666,44 @@ h1 {
         margin-bottom: 2%;
     }
 
+
+    .clientes__subtitulo {
+        font-size: 1rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 130vh;
+    }
+
+    .clientes__cards {
+        width: 85vw;
+        height: 32vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .user-content p {
+        font-size: 1rem;
+    }
 }
 
 
 @media screen and (min-width: 576px) {
 
-    .cover__textos {
-        padding-bottom: 10.25rem;
+    #header__items {
+        text-align: center;
     }
 
     h1 {
         font-size: 2.7rem;
+    }
+
+    .cover__textos {
+        padding-bottom: 10.25rem;
     }
 
     .cover__subtexto {
@@ -745,18 +778,43 @@ h1 {
         margin-bottom: 2%;
     }
 
+    .clientes__subtitulo {
+        font-size: 1.2rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 80vh;
+    }
+
+    .clientes__cards {
+        width: 37vw;
+        height: 37vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .user-content p {
+        font-size: 1.1rem;
+    }
+
 }
 
 
 /* TEXTOS */
 
 @media screen and (min-width: 768px) {
-    .cover__textos {
-        padding-bottom: 15.25rem;
-    }
+
 
     h1 {
         font-size: 3rem;
+    }
+
+    .cover__textos {
+        padding-bottom: 15.25rem;
     }
 
     .cover__subtexto {
@@ -764,8 +822,6 @@ h1 {
         font-family: 'Merriweather', serif;
         font-weight: 500;
     }
-
-
 
     .nav_items {
         padding-top: 0.5rem;
@@ -831,22 +887,44 @@ h1 {
 
     .cards__img--set2 {
         padding-top: 3%;
-        /* padding-bottom: -4%; */
     }
 
+    .clientes__subtitulo {
+        font-size: 1.35rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 80vh;
+    }
+
+    .clientes__cards {
+        width: 36vw;
+        height: 37vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .user-content p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
     .carrousel-caption {
         bottom: -6.75rem;
     }
 
     .cover__textos {
         padding-bottom: 13.25rem;
-    }
-
-    h1 {
-        font-size: 4rem;
     }
 
     .cover__subtexto {
@@ -909,6 +987,29 @@ h1 {
         border-radius: 9px;
         margin-bottom: 2%;
     }
+
+    .clientes__subtitulo {
+        font-size: 1.45rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 75vh;
+    }
+
+    .clientes__cards {
+        width: 45vw;
+        height: 34vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.6rem;
+    }
+
+    .user-content p {
+        font-size: 1.16rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -927,7 +1028,6 @@ h1 {
 
     .nav_items {
         padding-top: 0.5rem;
-        /* margin-left: 3%; */
     }
 
 
@@ -986,21 +1086,47 @@ h1 {
     }
 
     .cards__img--set2 {
-        /* padding-bottom: 1%; */
         padding-top: 0%;
-        /* padding-bottom: -4%; */
+    }
+
+    .clientes__subtitulo {
+        font-size: 1.5rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 72vh;
+    }
+
+    .clientes__cards {
+        width: 44vw;
+        height: 32vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.7rem;
+    }
+
+    .user-content p {
+        font-size: 1.2rem;
     }
 }
 
 @media screen and (min-width: 1400px) {
+
+    #header {
+        width: 100vw;
+        height: 10vh;
+    }
 
     h1 {
         font-size: 4.6rem;
     }
 
     .card-textos {
-        font-size: 1.5rem;
-        padding-bottom: 12.25rem;
+        font-size: 1.9rem;
+        padding-bottom: 13.25rem;
         left: 13%;
         line-height: 32px;
         width: 72%;
@@ -1047,5 +1173,28 @@ h1 {
         margin-bottom: 2%;
     }
 
+
+    .clientes__subtitulo {
+        font-size: 1.5rem;
+        padding-left: 3%;
+        margin-bottom: 6%;
+    }
+
+    .clientes {
+        height: 76vh;
+    }
+
+    .clientes__cards {
+        width: 30vw;
+        height: 32vh;
+    }
+
+    .user-content h3 {
+        font-size: 1.7rem;
+    }
+
+    .user-content p {
+        font-size: 1.2rem;
+    }
 
 }
