@@ -29,20 +29,25 @@ margin-bottom: $margin-bottom;
         }
 
     .productos__cards {
-        @include medidas-productos(100vw, 50vh);
+        @include medidas-productos(100vw, 56vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
     }
-
+    .sets {
+        height: 150vh;
 
     .sets__cards {
-        @include medidas-productos(100vw, 50vh);
+        @include medidas-productos(100vw, 65vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
+    }
+
+    .contenido_set--2 {
+        margin-top: -14%;
+    }
+    }
+    .productos__subtitulo {
+        font-size: 1.2rem;
     }
 }
 
@@ -72,21 +77,24 @@ margin-bottom: $margin-bottom;
 
 
     .productos__cards {
-        @include medidas-productos-sm(150vw, 52vh);
+        @include medidas-productos-sm(150vw, 67vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
     }
 
+.sets {
 
+    height: 147vh;
     .sets__cards {
-        @include medidas-productos-sm(100vw, 54vh);
+        @include medidas-productos-sm(100vw, 64vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
+
+        .contenido_set--2 {
+            margin-top: -14%;
+        }
     }
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -111,21 +119,17 @@ margin-bottom: $margin-bottom;
         }
 
     .productos__cards {
-        @include medidas-productos-md(60vw, 60vh);
+        @include medidas-productos-md(60vw, 70vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
     }
 
     .sets {
-
+height: 192vh;
         .sets__cards {
-            @include medidas-productos-md(66vw, 70vh);
+            @include medidas-productos-md(66vw, 86vh);
             background-color: $fondo-clarito;
             @include medidas-border-y-margin (9px, 2%);
-            // border-radius: 9px;
-            // margin-bottom: 2%;
             
             .cards__img--set1 {
                 padding-bottom: 5%;
@@ -133,6 +137,10 @@ margin-bottom: $margin-bottom;
     
             .cards__img--set2 {
                 padding-top: 3%;
+            }
+
+            .contenido_set--2 {
+                margin-top: -14%;
             }
         }
     }
@@ -155,18 +163,18 @@ margin-bottom: $margin-bottom;
         }
 
     .productos__cards {
-        @include medidas-productos-lg(50vw, 55vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
-    }
-    .sets__cards {
         @include medidas-productos-lg(50vw, 70vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
+       }
+
+       .sets {
+           height: 203vh;
+    .sets__cards {
+        @include medidas-productos-lg(50vw, 91vh);
+        background-color: $fondo-clarito;
+        @include medidas-border-y-margin (9px, 2%);
+       }
     }
 }
 
@@ -186,18 +194,15 @@ margin-bottom: $margin-bottom;
         @include medidas-productos-xl(24vw, 48vh);
         background-color:  $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-        // border-radius: 9px;
-        // margin-bottom: 2%;
-    }
+     }
 
     .sets {
+        height: 75vh;
         .sets__cards {
             @include medidas-productos-xl(26vw, 56vh);
             background-color: $fondo-clarito;
             @include medidas-border-y-margin (9px, 2%);
-            // border-radius: 9px;
-            // margin-bottom: 2%;
-        }
+          }
         .cards__img--set1 {
             padding-bottom: 5%;
         }    

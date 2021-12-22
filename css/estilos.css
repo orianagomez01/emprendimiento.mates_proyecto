@@ -68,7 +68,6 @@ body {
 
 .cards {
     width: 80vw;
-    /* height: 20vh; */
 }
 
 .card,
@@ -404,7 +403,6 @@ h1 {
 
 .nosotros__imagenes {
     width: 50%;
-    /* margin: 0; */
 }
 
 .nosotros__img--vector {
@@ -540,7 +538,7 @@ h1 {
     }
 
     .inicio {
-        height: 105vh;
+        height: 125vh;
     }
 
     .inicio__cards {
@@ -663,7 +661,7 @@ h1 {
     }
 
     .inicio {
-        height: 110vh;
+        height: 139vh;
     }
 
     .inicio__cards {
@@ -809,7 +807,7 @@ h1 {
     }
 
     .inicio {
-        height: 55vh;
+        height: 66vh;
     }
 
     .nosotros__img--matesrosa {
@@ -947,7 +945,7 @@ h1 {
     }
 
     .inicio {
-        height: 60vh;
+        height: 65vh;
     }
 
     .nosotros__img--matesrosa {
@@ -1081,7 +1079,7 @@ h1 {
     }
 
     .inicio {
-        height: 60vh;
+        height: 70vh;
     }
 
     .nosotros__img--matesrosa {
@@ -1159,7 +1157,7 @@ h1 {
     }
 
     .inicio {
-        height: 53vh;
+        height: 59vh;
     }
 
     .nosotros__img--matesrosa {
