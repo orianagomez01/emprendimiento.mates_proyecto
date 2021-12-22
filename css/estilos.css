@@ -363,6 +363,10 @@ h1 {
     animation: btn-hover 3s ease-in-out forwards normal;
 }
 
+.form-control:focus {
+    color: rgb(255, 0, 106);
+}
+
 @keyframes btn-hover {
 
     0% {
@@ -412,14 +416,11 @@ h1 {
 .nosotros__textos {
     animation: textos-animacion 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
     clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-
-
 }
 
 @keyframes textos-animacion {
     to {
         clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
-
     }
 }
 
@@ -447,105 +448,6 @@ h1 {
     width: 50%;
 }
 
-/* PÁGINA DE PRODUCTOS!!!! */
-
-.productos__subtitulo {
-    font-family: 'Montserrat', serif;
-    font-weight: lighter;
-    font-size: 2rem;
-    margin-bottom: 3%;
-}
-
-.productos__cards {
-    width: 20vw;
-    height: 42vh;
-    background-color: #f8f3e0;
-    border-radius: 9px;
-    margin-bottom: 2%;
-}
-
-.sets__cards {
-    width: 20vw;
-    height: 51vh;
-    background-color: #f8f3e0;
-    border-radius: 9px;
-    margin-bottom: 2%;
-}
-
-.cards__titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 550;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-}
-
-.cards__img {
-    width: 50%;
-    padding-top: 5%;
-}
-
-.cards__img--cuchara {
-    width: 14%;
-    padding-top: 5%;
-}
-
-.cards__img--cuenco {
-    width: 92%;
-}
-
-.cards__img--azucarera {
-    padding-top: 5%;
-    width: 45%;
-}
-
-.cards__img--tabla {
-    padding-top: 5%;
-    width: 57%;
-}
-
-.cards__img--set1 {
-    padding-top: 5%;
-}
-
-.cards__img--set2 {
-    width: 102%;
-}
-
-.cards__img--bombilla {
-    padding-top: 5%;
-    width: 10%;
-}
-
-.cards__descripcion {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #000000;
-}
-
-.cards__precio {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-
-    color: #000000;
-
-}
-
-.sets__titulo {
-    font-family: 'Merriweather', serif;
-    font-weight: bolder;
-    font-size: 2.8rem;
-    margin-bottom: 2%;
-
-}
 
 /* PÁGINA DE CLIENTES !!!!!!!! */
 
@@ -657,24 +559,6 @@ h1 {
     .footer {
         height: 64vh;
     }
-
-    .productos__cards {
-        width: 100vw;
-        height: 50vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-
-    .sets__cards {
-        width: 100vw;
-        height: 50vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
 
     .clientes__subtitulo {
         font-size: 1rem;
@@ -816,24 +700,6 @@ h1 {
         height: 64vh;
     }
 
-
-    .productos__cards {
-        width: 150vw;
-        height: 52vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-
-    .sets__cards {
-        width: 100vw;
-        height: 54vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
     .clientes__subtitulo {
         font-size: 1.2rem;
         padding-left: 3%;
@@ -915,12 +781,7 @@ h1 {
     }
 }
 
-
-/* TEXTOS */
-
 @media screen and (min-width: 768px) {
-
-
     h1 {
         font-size: 3rem;
     }
@@ -975,30 +836,6 @@ h1 {
 
     .footer {
         height: 40vh;
-    }
-
-    .productos__cards {
-        width: 60vw;
-        height: 60vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .sets__cards {
-        width: 66vw;
-        height: 70vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .cards__img--set1 {
-        padding-bottom: 5%;
-    }
-
-    .cards__img--set2 {
-        padding-top: 3%;
     }
 
     .clientes__subtitulo {
@@ -1079,7 +916,6 @@ h1 {
     }
 
     .grid .grid__circulo--rosayamarillo {
-        /* grid-column: 3/4; */
         grid-row: 3;
     }
 
@@ -1103,14 +939,8 @@ h1 {
         font-size: 1.2rem;
     }
 
-
-    .nav_items {
-        padding-top: 1rem;
-    }
-
     .card-textos {
         padding-bottom: 7.25rem;
-
         line-height: 32px;
         width: 88%;
         left: 7%;
@@ -1120,13 +950,11 @@ h1 {
         height: 60vh;
     }
 
-
     .nosotros__img--matesrosa {
         width: 31%;
         margin-left: 20%;
         margin-bottom: -37%;
     }
-
 
     .nosotros__img--matesvangogh {
         width: 33%;
@@ -1141,23 +969,6 @@ h1 {
 
     .footer {
         height: 44vh;
-    }
-
-
-    .productos__cards {
-        width: 50vw;
-        height: 55vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .sets__cards {
-        width: 50vw;
-        height: 70vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
     }
 
     .clientes__subtitulo {
@@ -1262,12 +1073,6 @@ h1 {
         font-size: 1.5rem;
     }
 
-
-    .nav_items {
-        padding-top: 0.5rem;
-    }
-
-
     .card-textos {
         padding-bottom: 9.25rem;
         left: 13%;
@@ -1297,31 +1102,6 @@ h1 {
 
     .footer {
         height: 48vh;
-    }
-
-
-    .productos__cards {
-        width: 24vw;
-        height: 48vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .sets__cards {
-        width: 26vw;
-        height: 56vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .cards__img--set1 {
-        padding-bottom: 5%;
-    }
-
-    .cards__img--set2 {
-        padding-top: 0%;
     }
 
     .clientes__subtitulo {
@@ -1401,24 +1181,6 @@ h1 {
     .footer {
         height: 48vh;
     }
-
-
-    .productos__cards {
-        width: 20vw;
-        height: 48vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
-    .sets__cards {
-        width: 20vw;
-        height: 57vh;
-        background-color: #f8f3e0;
-        border-radius: 9px;
-        margin-bottom: 2%;
-    }
-
 
     .clientes__subtitulo {
         font-size: 1.5rem;

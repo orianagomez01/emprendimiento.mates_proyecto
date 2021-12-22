@@ -1,0 +1,117 @@
+h1 {
+    font-size: 4.6rem;
+    font-family: $font-merriweather;
+    font-weight: bold;
+}
+
+.productos {
+    &__subtitulo {
+        font-family: $font-montserrat;
+        font-weight: $font-light;
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+
+}
+
+.secciones__titulos {
+    margin-top: 3%;
+}
+
+@mixin medidas-productos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    }
+
+    
+.productos__cards {
+    @include medidas-productos(20vw, 42vh);
+    background-color: $fondo-clarito;
+    border-radius: 9px;
+    margin-bottom: 2%;
+
+
+    @mixin cards ($ancho, $padding) {
+        width: $ancho;
+        padding: $padding;
+        }
+        
+        .cards__img {
+            @include cards(52%, 5%);
+        }
+        
+        .cards__img--cuchara {
+            @include cards(24%, 5%);
+           
+        }
+        
+        .cards__img--cuenco {
+            width: 92%;
+        }
+        
+        .cards__img--azucarera {
+            @include cards(52%, 5%);
+        }
+        
+        .cards__img--tabla {
+            @include cards(60%, 5%);
+        }
+        
+        .cards__img--set1 {
+            padding-top: 5%;
+        }
+        
+        .cards__img--set2 {
+            width: 102%;
+        }
+        
+        .cards__img--bombilla {
+            @include cards(20%, 5%);
+        }
+}
+
+
+.sets__cards {
+    @include medidas-productos(20vw, 51vh);
+    background-color: $fondo-clarito;
+    border-radius: 9px;
+    margin-bottom: 2%;
+}
+
+.cards__titulo {
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.cards__descripcion {
+    font-family:$font-montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: $color-negro;
+}
+
+.cards__precio {
+    font-family:$font-montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: $color-negro;
+
+}
+
+.sets__titulo {
+    font-family: $font-merriweather;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    margin-bottom: 2%;
+
+}

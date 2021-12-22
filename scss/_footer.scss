@@ -1,0 +1,32 @@
+.footer {
+    width: 100vw;
+    background-color: $color-fondo;
+}
+.footer__texto {
+    font-size: 1rem;
+    font-family: $font-merriweather;
+    font-weight: $font-light;
+    color: $color-negro;
+}
+
+
+#footer_items {
+    color: $color-negro;
+    text-decoration: none;
+
+    font-size: 1rem;
+    font-family: $font-merriweather;
+    font-weight: $font-light;
+}
+
+#footer_items:hover {
+    color: $color-rosa;
+}
+
+.footer_contacto {
+.contactanos__svg {
+    padding: 0;
+    width: 10.666667%;
+}
+}
+
