@@ -148,6 +148,12 @@ h1 {
     color: black;
 }
 
+.accordion-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
 
 /* FOOTER !! */
 .footer {
@@ -538,7 +544,15 @@ h1 {
     }
 
     .inicio {
-        height: 125vh;
+        height: 120vh;
+    }
+
+    .inicio_preguntas {
+        height: 50vh;
+    }
+
+    .inicio_preguntas {
+        height: 50vh;
     }
 
     .inicio__cards {
@@ -661,7 +675,11 @@ h1 {
     }
 
     .inicio {
-        height: 139vh;
+        height: 128vh;
+    }
+
+    .inicio_preguntas {
+        height: 52vh;
     }
 
     .inicio__cards {
@@ -807,7 +825,11 @@ h1 {
     }
 
     .inicio {
-        height: 66vh;
+        height: 56vh;
+    }
+
+    .inicio_preguntas {
+        height: 52vh;
     }
 
     .nosotros__img--matesrosa {
@@ -948,6 +970,10 @@ h1 {
         height: 65vh;
     }
 
+    .inicio_preguntas {
+        height: 53vh;
+    }
+
     .nosotros__img--matesrosa {
         width: 31%;
         margin-left: 20%;
@@ -1079,7 +1105,11 @@ h1 {
     }
 
     .inicio {
-        height: 70vh;
+        height: 59vh;
+    }
+
+    .inicio_preguntas {
+        height: 52vh;
     }
 
     .nosotros__img--matesrosa {
@@ -1157,7 +1187,11 @@ h1 {
     }
 
     .inicio {
-        height: 59vh;
+        height: 53vh;
+    }
+
+    .inicio_preguntas {
+        height: 50vh;
     }
 
     .nosotros__img--matesrosa {
