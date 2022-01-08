@@ -94,7 +94,6 @@ h1 {
   margin-bottom: 2%; }
 
 .footer {
-  width: 100vw;
   background-color: #EFE8E4; }
 
 .footer__texto {
@@ -243,7 +242,6 @@ h1 {
 
 @media screen and (min-width: 1400px) {
   #header {
-    width: 100vw;
     height: 10vh; }
   h1 {
     font-size: 4.6rem; }
