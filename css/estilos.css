@@ -82,7 +82,7 @@ body {
     }
 }
 
-.card--textom {
+.card--titulos {
     margin-bottom: 2.5rem;
     margin-top: 3rem;
     font-family: 'Merriweather', serif;
@@ -130,8 +130,14 @@ h1 {
     margin-top: 3%;
 }
 
-
+.inicio__subtitulo,
+.img__icono--envios,
+.img__icono--promociones,
 .img__icono--mate {
+    text-align: center;
+}
+
+/* .img__icono--mate {
     width: 70%;
 }
 
@@ -146,7 +152,7 @@ h1 {
     margin-bottom: 3%;
     align-items: center;
     color: black;
-}
+} */
 
 .accordion-texto {
     font-family: 'Montserrat', sans-serif;
@@ -166,7 +172,6 @@ span {
 
 /* FOOTER !! */
 .footer {
-    /* width: 100vw; */
     background-color: #EFE8E4;
 }
 
@@ -522,7 +527,228 @@ span {
 
 /* MEDIA QUERIES PRIMERA PANTALLA */
 
+@media screen and (max-width: 374.98px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .cover__subtexto {
+        font-size: 0.9rem;
+    }
+
+    .cover__textos {
+        padding-bottom: 2.25rem;
+    }
+
+    .card-textos {
+        padding-bottom: 7.25rem;
+        font-size: 1.2rem;
+        line-height: 28px;
+    }
+
+    .carousel-caption {
+        right: 5%;
+        left: 5%;
+    }
+
+    .inicio {
+        height: 68vh;
+    }
+
+    .inicio__img {
+        width: 20%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 17%;
+        height: 50%;
+    }
+
+    .inicio_preguntas {
+        height: 38vh;
+    }
+
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 24%;
+
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -2%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 16%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .cover__subtexto {
+        font-size: 1.1rem;
+    }
+
+    .cover__textos {
+        padding-bottom: 2.25rem;
+    }
+
+    .carousel-caption {
+        right: 6%;
+        left: 6%;
+    }
+
+    .card-textos {
+        padding-bottom: 8.25rem;
+    }
+
+    .inicio {
+        height: 68vh;
+    }
+
+    .inicio__img {
+        width: 20%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 17%;
+        height: 50%;
+    }
+
+    .inicio_preguntas {
+        height: 35vh;
+    }
+
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 28%;
+
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 20%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cover__textos {
+        padding-bottom: 4rem;
+    }
+
+    .cover__subtexto {
+        font-size: 1rem;
+    }
+
+    .carousel-caption {
+        right: 13%;
+        left: 13%;
+
+    }
+
+    .card-textos {
+        padding-bottom: 10.25rem;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 17%;
+        height: 50%;
+    }
+
+    .inicio {
+        height: 70vh;
+    }
+
+    .inicio__img {
+        width: 20%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .inicio_preguntas {
+        height: 35vh;
+    }
+
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 30%;
+
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 23%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+
+}
+
 /* DE 575 PARA ABAJO */
+/*
 @media screen and (max-width: 575.98px) {
     .cover__textos {
         padding-bottom: 7.25rem;
@@ -650,7 +876,7 @@ span {
     .img__circulo--rojo {
         width: 30vw;
     }
-}
+} */
 
 
 @media screen and (min-width: 576px) {
@@ -664,7 +890,7 @@ span {
     }
 
     .cover__textos {
-        padding-bottom: 10.25rem;
+        padding-bottom: 7.25rem;
     }
 
     .cover__subtexto {
@@ -684,11 +910,29 @@ span {
     }
 
     .inicio {
-        height: 128vh;
+        height: 72vh;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 17%;
+        height: 50%;
+    }
+
+    .inicio__img {
+        width: 20%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
     }
 
     .inicio_preguntas {
-        height: 52vh;
+        height: 35vh;
     }
 
     .inicio__cards {
@@ -700,21 +944,45 @@ span {
         padding-left: 10%;
     }
 
-    .nosotros__img--matesrosa {
+    /* .nosotros__img--matesrosa {
         width: 43%;
-        margin-bottom: 0%;
+        /* margin-bottom: 0%; */
+    /* margin-bottom: 52%;
         margin-left: 26%;
     }
-
 
     .nosotros__img--matesvangogh {
         width: 48%;
         margin-left: -1%;
-        margin-bottom: 20%;
+        /* margin-bottom: 20%; */
+    /* margin-bottom: 73%; */
+    /* } */
+
+    .nosotros__img--matesrosa {
+        width: 43%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 39%;
+
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 48%;
+        margin-left: -1%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 25%;
     }
 
     .nosotros__descripcion--textos {
         width: 100%;
+    }
+
+    .nosotros__textos {
+        font-size: 1.5rem;
     }
 
     .footer_contacto {
@@ -812,7 +1080,7 @@ span {
     }
 
     .cover__textos {
-        padding-bottom: 15.25rem;
+        padding-bottom: 12.25rem;
     }
 
     .cover__subtexto {
@@ -827,37 +1095,65 @@ span {
 
     .card-textos {
         padding-bottom: 4.25rem;
-        font-size: 1.2rem;
+        font-size: 1.16rem;
         line-height: 25px;
         width: 98%;
         left: 2px;
     }
 
     .inicio {
-        height: 56vh;
+        height: 43vh;
+    }
+
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 23%;
+        height: 50%;
+    }
+
+    .inicio__img {
+        width: 25%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
     }
 
     .inicio_preguntas {
-        height: 52vh;
+        height: 40vh;
     }
 
     .nosotros__img--matesrosa {
-        width: 34%;
-        margin-bottom: -32%;
-        margin-left: 23%;
+        width: 43%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 49%;
+
     }
 
-
     .nosotros__img--matesvangogh {
-        width: 40%;
+        width: 48%;
         margin-left: -1%;
-        margin-bottom: -15%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 31%;
     }
 
     .nosotros__descripcion--textos {
         width: 100%;
     }
 
+    .nosotros__textos {
+        font-size: 1.5rem;
+    }
 
     .footer_contacto {
         margin-top: 0%;
@@ -947,13 +1243,16 @@ span {
     .grid .grid__circulo--rosayamarillo {
         grid-row: 3;
     }
-
 }
 
 @media screen and (min-width: 992px) {
 
     h1 {
         font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
     }
 
     .carrousel-caption {
@@ -969,6 +1268,7 @@ span {
     }
 
     .card-textos {
+        font-size: 1.8rem;
         padding-bottom: 7.25rem;
         line-height: 32px;
         width: 88%;
@@ -976,28 +1276,73 @@ span {
     }
 
     .inicio {
-        height: 65vh;
+        height: 40vh;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 25%;
+        height: 50%;
+    }
+
+    .inicio__img {
+        width: 25%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
     }
 
     .inicio_preguntas {
-        height: 53vh;
+        height: 40vh;
     }
 
-    .nosotros__img--matesrosa {
+    /* .nosotros__img--matesrosa {
         width: 31%;
         margin-left: 20%;
-        margin-bottom: -37%;
+        /* margin-bottom: -37%; */
+    /* margin-bottom: 11%;
     }
 
     .nosotros__img--matesvangogh {
         width: 33%;
         margin-left: -1%;
-        margin-bottom: -21%;
-
+        margin-bottom: -21%; */
+    /* margin-bottom: 25%;
     }
 
     .nosotros__descripcion--textos {
         width: 50%;
+    } */
+
+    .nosotros__img--matesrosa {
+        width: 37%;
+        margin-bottom: 0%;
+        /* margin-bottom: 52%; */
+        /* margin-bottom: 117%; */
+        margin-left: 26%;
+        top: 53%;
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 42%;
+        margin-left: -1%;
+        margin-bottom: 0%;
+        /* margin-bottom: 73%; */
+        /* margin-bottom: 134%; */
+        top: 34%;
+    }
+
+    .nosotros__descripcion--textos {
+        width: 100%;
+    }
+
+    .nosotros__textos {
+        font-size: 1.5rem;
     }
 
     .footer {
@@ -1102,39 +1447,70 @@ span {
         font-size: 4.6rem;
     }
 
+    h4 {
+        font-size: 1.4rem;
+    }
+
     .cover__subtexto {
         font-size: 1.5rem;
     }
 
     .card-textos {
+        font-size: 1.8rem;
         padding-bottom: 9.25rem;
-        left: 13%;
+        left: 1%;
         line-height: 32px;
-        width: 72%;
+        width: 98%;
     }
 
     .inicio {
-        height: 59vh;
+        height: 48vh;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 23%;
+        height: 50%;
+    }
+
+    .inicio__img {
+        width: 25%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
     }
 
     .inicio_preguntas {
-        height: 52vh;
+        height: 45vh;
     }
 
     .nosotros__img--matesrosa {
         width: 24%;
         margin-left: 14%;
-        margin-bottom: -10%;
+        /* margin-bottom: -10%; */
+        /* margin-bottom: 20%; */
+        top: 48%;
     }
 
     .nosotros__img--matesvangogh {
         width: 28%;
         margin-left: -5%;
-        margin-bottom: -1%;
+        /* margin-bottom: -1%; */
+        /* margin-bottom: 27%; */
+        top: 33%;
     }
 
     .nosotros__descripcion--textos {
         width: 50%;
+    }
+
+    .nosotros__textos {
+        font-size: 1.2rem;
     }
 
     .footer {
@@ -1171,20 +1547,20 @@ span {
     .grid {
         grid-template-rows: repeat(4, 1fr);
     }
-
-
-
 }
 
 @media screen and (min-width: 1400px) {
 
     #header {
-        /* width: 100vw; */
         height: 10vh;
     }
 
     h1 {
         font-size: 4.6rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
     }
 
     .card-textos {
@@ -1196,27 +1572,51 @@ span {
     }
 
     .inicio {
-        height: 53vh;
+        height: 42vh;
+    }
+
+    .img__icono--mate {
+        width: 90%;
+        padding-left: 10%;
+    }
+
+    .img__icono--envios svg,
+    .img__icono--promociones svg {
+        width: 23%;
+        height: 50%;
+    }
+
+    .inicio__img {
+        width: 25%;
+        margin-bottom: 3%;
+        align-items: center;
+        color: black;
     }
 
     .inicio_preguntas {
-        height: 50vh;
+        height: 40vh;
     }
 
     .nosotros__img--matesrosa {
-        width: 24%;
+        width: 20%;
         margin-left: 12%;
-        margin-bottom: -14%;
+        /* margin-bottom: -14%; */
+        top: 75%;
     }
 
     .nosotros__img--matesvangogh {
-        width: 28%;
+        width: 22%;
         margin-left: -4%;
-        margin-bottom: -7%;
+        top: 56%;
+        /* margin-bottom: -7%; */
     }
 
     .nosotros__descripcion--textos {
         width: 50%;
+    }
+
+    .nosotros__textos {
+        font-size: 1rem;
     }
 
     .footer {
@@ -1321,5 +1721,29 @@ span {
     .img__circulo--rosaoscuro {
         width: 400%;
         margin-top: 4vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .inicio_preguntas {
+        height: 46vh;
+    }
+
+    .nosotros__img--matesrosa {
+        width: 20%;
+        margin-left: 12%;
+        /* margin-bottom: -14%; */
+        top: 57%;
+    }
+
+    .nosotros__img--matesvangogh {
+        width: 22%;
+        margin-left: -4%;
+        top: 38%;
+        /* margin-bottom: -7%; */
+    }
+
+    .nosotros__textos {
+        font-size: 1.4rem;
     }
 }
