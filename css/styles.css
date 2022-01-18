@@ -116,48 +116,32 @@ h1 {
   padding: 0;
   width: 10.666667%; }
 
-/*
 @media screen and (max-width: 575.98px) {
-    h1 {
-        font-size: 2.3rem;
-    }
-    
-    .footer_contacto {
-        margin-top: 5%;
-    }
+  h1 {
+    font-size: 2.3rem; }
+  .footer_contacto {
+    margin-top: 5%; }
+  .footer {
+    height: 64vh; }
+  .productos__cards {
+    width: 100vw;
+    height: 56vh;
+    background-color: #f8f3e0;
+    border-radius: 9px;
+    margin-bottom: 2%; }
+  .sets {
+    height: 150vh; }
+    .sets .sets__cards {
+      width: 100vw;
+      height: 65vh;
+      background-color: #f8f3e0;
+      border-radius: 9px;
+      margin-bottom: 2%; }
+    .sets .contenido_set--2 {
+      margin-top: -14%; }
+  .productos__subtitulo {
+    font-size: 1.2rem; } }
 
-    .footer {
-        height: 64vh;
-    }
-
-    @mixin medidas-productos($ancho, $alto) {
-        width: $ancho;
-        height: $alto;
-        }
-
-    .productos__cards {
-        @include medidas-productos(100vw, 56vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-    }
-    .sets {
-        height: 150vh;
-
-    .sets__cards {
-        @include medidas-productos(100vw, 65vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-    }
-
-    .contenido_set--2 {
-        margin-top: -14%;
-    }
-    }
-    .productos__subtitulo {
-        font-size: 1.2rem;
-    }
-}
-*/
 @media screen and (min-width: 576px) {
   #header__items {
     text-align: center; }
@@ -275,7 +259,7 @@ h1 {
     height: 48vh; }
   .productos__cards {
     width: 20vw;
-    height: 34vh;
+    height: 40vh;
     background-color: #f8f3e0;
     border-radius: 9px;
     margin-bottom: 2%; }
@@ -283,7 +267,7 @@ h1 {
     height: 60vh; }
     .sets .sets__cards {
       width: 24vw;
-      height: 48vh;
+      height: 52vh;
       background-color: #f8f3e0;
       border-radius: 9px;
       margin-bottom: 2%; }
@@ -298,25 +282,3 @@ h1 {
   .card-body .cards__descripcion {
     font-size: 1.2rem;
     line-height: 25px; } }
-
-@media screen and (min-width: 1920px) and (min-height: 1080px) {
-  .productos__cards {
-    width: 18vw;
-    height: 38vh;
-    background-color: #f8f3e0;
-    border-radius: 9px;
-    margin-bottom: 2%; }
-  .sets {
-    height: 70vh; }
-    .sets .sets__cards {
-      width: 20vw;
-      height: 45vh;
-      background-color: #f8f3e0;
-      border-radius: 9px;
-      margin-bottom: 2%; }
-    .sets__titulo {
-      font-size: 3rem; }
-  .cards-body .cards__titulo {
-    font-size: 1.8rem; }
-  .cards-body .cards__descripcion {
-    font-size: 1.3rem; } }

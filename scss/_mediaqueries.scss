@@ -9,7 +9,7 @@ margin-bottom: $margin-bottom;
     }
 
     // DE 575 PARA ABAJO 
-/*
+
 @media screen and (max-width: 575.98px) {
     h1 {
         font-size: 2.3rem;
@@ -50,17 +50,17 @@ margin-bottom: $margin-bottom;
         font-size: 1.2rem;
     }
 }
-*/
-
-@media screen and (max-width: 374.98px) {
-}
-
-@media screen and (min-width: 375px) {
-}
 
 
-@media screen and (min-width: 425px) {
-}
+// @media screen and (max-width: 374.98px) {
+// }
+
+// @media screen and (min-width: 375px) {
+// }
+
+
+// @media screen and (min-width: 425px) {
+// }
 
 @media screen and (min-width: 576px) {
 
@@ -267,7 +267,7 @@ height: 192vh;
         }
 
     .productos__cards {
-        @include medidas-productos-xxl(20vw, 34vh);
+        @include medidas-productos-xxl(20vw, 40vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
     }
@@ -276,7 +276,7 @@ height: 192vh;
         height: 60vh;
 
         .sets__cards {
-        @include medidas-productos-xxl(24vw, 48vh);
+        @include medidas-productos-xxl(24vw, 52vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
     }
@@ -307,40 +307,40 @@ height: 192vh;
 }
 }
 
-@media screen and (min-width: 1920px) and (min-height: 1080px) {
+// @media screen and (min-width: 1920px) and (min-height: 1080px) {
 
-    @mixin medidas-productos-xxxl($ancho, $alto) {
-        width: $ancho;
-        height: $alto;
-        }
+//     @mixin medidas-productos-xxxl($ancho, $alto) {
+//         width: $ancho;
+//         height: $alto;
+//         }
 
-    .productos__cards {
-        @include medidas-productos-xxxl(18vw, 38vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-    }
+//     .productos__cards {
+//         @include medidas-productos-xxxl(18vw, 38vh);
+//         background-color: $fondo-clarito;
+//         @include medidas-border-y-margin (9px, 2%);
+//     }
 
-    .sets {
-        height: 70vh;
-       .sets__cards {
-            @include medidas-productos-xxxl(20vw, 45vh);
-            background-color: $fondo-clarito;
-            @include medidas-border-y-margin (9px, 2%);
-        }
+//     .sets {
+//         height: 70vh;
+//        .sets__cards {
+//             @include medidas-productos-xxxl(20vw, 45vh);
+//             background-color: $fondo-clarito;
+//             @include medidas-border-y-margin (9px, 2%);
+//         }
     
-        &__titulo {
-        font-size: 3rem;
-        }
-    }
+//         &__titulo {
+//         font-size: 3rem;
+//         }
+//     }
 
-    .cards-body {
-    .cards__titulo {
-        font-size: 1.8rem;
-    }
+//     .cards-body {
+//     .cards__titulo {
+//         font-size: 1.8rem;
+//     }
    
-    .cards__descripcion {
-        font-size: 1.3rem;
-    }
-}
+//     .cards__descripcion {
+//         font-size: 1.3rem;
+//     }
+// }
 
-}
+// }
