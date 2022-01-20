@@ -26,7 +26,6 @@ body {
     font-weight: bold;
 }
 
-
 #header__items {
     color: black;
     text-decoration: none;
@@ -35,7 +34,6 @@ body {
 #header__items:hover {
     color: #fa8482;
 }
-
 
 #footer__items {
     color: black;
@@ -59,7 +57,6 @@ body {
     background-size: cover;
     animation: cover-animacion 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards normal;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-
 }
 
 .cover__textos {
@@ -110,8 +107,6 @@ h1 {
     line-height: 45px;
     text-align: center;
     color: #FFFFFF;
-
-
 }
 
 @keyframes cover-animacion {
@@ -130,7 +125,6 @@ h1 {
     margin-top: 3%;
 }
 
-
 .img__icono--mate {
     width: 70%;
 }
@@ -148,6 +142,13 @@ h1 {
     color: black;
 }
 
+.inicio__subtitulo,
+.img__icono--envios,
+.img__icono--promociones,
+.img__icono--mate {
+    text-align: center;
+}
+
 .accordion-texto {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -159,14 +160,17 @@ h1 {
     background-color: white;
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: #EFE8E4;
+    color: unset;
+}
+
 span {
     font-weight: bold;
 }
 
-
 /* FOOTER !! */
 .footer {
-    /* width: 100vw; */
     background-color: #EFE8E4;
 }
 
@@ -192,7 +196,6 @@ span {
 }
 
 .grid .grid__circulo--naranja {
-
     grid-column: 10/11;
     grid-row: 1;
     margin-top: 3vh;
@@ -202,7 +205,6 @@ span {
     grid-column: 2/3;
     grid-row: 3;
     margin-top: 3%;
-
 }
 
 .grid .grid__circulo--rosaoscuro {
@@ -226,20 +228,15 @@ span {
     margin-top: 4vh;
 }
 
-
 .grid .grid__circulo--naranja-dos {
-
     grid-column: 3/4;
     grid-row: 2;
-
     margin-top: -5vh;
-
 }
 
 .grid .grid__circulo--rosa-dos {
     grid-column: 10/11;
     grid-row: 4;
-
 }
 
 .grid .grid__circulo--rosaoscuro-dos {
@@ -249,7 +246,6 @@ span {
 
 .img__circulo--naranja-dos {
     width: 100%;
-
 }
 
 .img__circulo--rosa-dos {
@@ -261,21 +257,16 @@ span {
     width: 75%;
 }
 
-
-
 .grid .grid__circulo--verdeyrosa {
     grid-column: 2/3;
     grid-row: 4;
     margin-top: -2vw;
-
-
 }
 
 .grid .grid__circulo--rosayamarillo {
     grid-column: 3/4;
     grid-row: 4;
 }
-
 
 .grid .grid__circulo--rojo {
     grid-column: 11/12;
@@ -296,7 +287,6 @@ span {
     width: 80%;
     margin-left: 9vh;
     margin-top: -5vw;
-
 }
 
 .img__circulo--rojo {
@@ -306,7 +296,6 @@ span {
 .img__circulo--verdeyrosa-dos {
     width: 80%;
 }
-
 
 .img__circulo--naranja,
 .img__circulo--rosa,
@@ -320,22 +309,18 @@ span {
 .img__circulo--naranja-dos {
     animation: animacion-circulos 3s ease-in-out forwards normal;
     clip-path: circle(0% at 50% 50%);
-
 }
 
 
 @keyframes animacion-circulos {
     to {
         clip-path: circle(50% at 50% 50%);
-
     }
-
 }
 
 .formulario {
     margin-top: 4%;
     margin-bottom: 8%;
-
 }
 
 .formulario__titulo {
@@ -371,7 +356,6 @@ span {
     color: black;
     justify-content: center;
 }
-
 
 .formulario__items--btn:hover {
     animation: btn-hover 3s ease-in-out forwards normal;
@@ -456,11 +440,9 @@ span {
     clip-path: circle(0% at 50% 50%);
 }
 
-
 .nosotros__descripcion--textos {
     width: 50%;
 }
-
 
 /* PÁGINA DE CLIENTES !!!!!!!! */
 
