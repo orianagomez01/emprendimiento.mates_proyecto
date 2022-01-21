@@ -510,6 +510,10 @@ span {
         padding-bottom: 7.25rem;
     }
 
+    .cover__img {
+        background-size: cover;
+    }
+
     h1 {
         font-size: 2.3rem;
     }
@@ -643,6 +647,10 @@ span {
 
     h1 {
         font-size: 2.7rem;
+    }
+
+    .cover__img {
+        background-size: cover;
     }
 
     .cover__textos {
@@ -791,6 +799,10 @@ span {
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 3rem;
+    }
+
+    .cover__img {
+        background-size: cover;
     }
 
     .cover__textos {
@@ -942,6 +954,10 @@ span {
         bottom: -6.75rem;
     }
 
+    .cover__img {
+        background-size: cover;
+    }
+
     .cover__textos {
         padding-bottom: 13.25rem;
     }
@@ -1076,6 +1092,10 @@ span {
 }
 
 @media screen and (min-width: 1200px) {
+    .cover__img {
+        background-size: cover;
+    }
+
     .cover__textos {
         padding-bottom: 24.25rem;
     }
