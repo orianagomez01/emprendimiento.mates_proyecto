@@ -79,7 +79,7 @@ body {
     }
 }
 
-.card--textom {
+.card--titulos {
     margin-bottom: 2.5rem;
     margin-top: 3rem;
     font-family: 'Merriweather', serif;
@@ -184,6 +184,7 @@ span {
 .contactanos__svg {
     padding: 0;
     width: 10.666667%;
+    margin-top: 1%;
 }
 
 /* FORMULARIO - GRID !!!!!! */
@@ -524,14 +525,16 @@ span {
 
     .nosotros__img--matesrosa {
         width: 43%;
-        margin-bottom: 6%;
+        /* 6% */
+        margin-bottom: 56%;
         margin-left: 26%;
     }
 
     .nosotros__img--matesvangogh {
         width: 48%;
         margin-left: -1%;
-        margin-bottom: 32%;
+        /* 32% */
+        margin-bottom: 74%;
     }
 
     .nosotros__descripcion--textos {
@@ -539,7 +542,8 @@ span {
     }
 
     .inicio {
-        height: 120vh;
+        /* 120vh */
+        height: 88vh;
     }
 
     .inicio_preguntas {
@@ -661,7 +665,7 @@ span {
         font-size: 0.8rem;
     }
 
-    .card--textom {
+    .card--titulos {
         font-size: 2.2rem;
     }
 
@@ -674,7 +678,8 @@ span {
     }
 
     .inicio {
-        height: 128vh;
+        /* 128vh */
+        height: 88vh;
     }
 
     .inicio_preguntas {
@@ -692,7 +697,8 @@ span {
 
     .nosotros__img--matesrosa {
         width: 43%;
-        margin-bottom: 0%;
+        /* 0% */
+        margin-bottom: 56%;
         margin-left: 26%;
     }
 
@@ -700,7 +706,8 @@ span {
     .nosotros__img--matesvangogh {
         width: 48%;
         margin-left: -1%;
-        margin-bottom: 20%;
+        /* 20% */
+        margin-bottom: 74%;
     }
 
     .nosotros__descripcion--textos {
@@ -828,7 +835,8 @@ span {
     }
 
     .inicio {
-        height: 56vh;
+        /* 56vh */
+        height: 45vh;
     }
 
     .inicio_preguntas {
@@ -837,7 +845,8 @@ span {
 
     .nosotros__img--matesrosa {
         width: 34%;
-        margin-bottom: -32%;
+        /* -32% */
+        margin-bottom: 32%;
         margin-left: 23%;
     }
 
@@ -845,7 +854,8 @@ span {
     .nosotros__img--matesvangogh {
         width: 40%;
         margin-left: -1%;
-        margin-bottom: -15%;
+        /* -15% */
+        margin-bottom: 40%;
     }
 
     .nosotros__descripcion--textos {

@@ -3,18 +3,18 @@
 // MIXINS !!!!!
 
 
-    @mixin medidas-border-y-margin ($border, $margin-bottom) {
-border-radius: $border;
-margin-bottom: $margin-bottom;
-    }
+@mixin medidas-border-y-margin ($border, $margin-bottom) {
+    border-radius: $border;
+    margin-bottom: $margin-bottom;
+}
 
-    // DE 575 PARA ABAJO 
+// DE 575 PARA ABAJO 
 
 @media screen and (max-width: 575.98px) {
     h1 {
         font-size: 2.3rem;
     }
-    
+
     .footer_contacto {
         margin-top: 5%;
     }
@@ -26,26 +26,30 @@ margin-bottom: $margin-bottom;
     @mixin medidas-productos($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
 
     .productos__cards {
-        @include medidas-productos(100vw, 56vh);
+        // 56vh
+        @include medidas-productos(100vw, 42vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
     }
+
     .sets {
         height: 150vh;
 
-    .sets__cards {
-        @include medidas-productos(100vw, 65vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
+        .sets__cards {
+            // 65vh
+            @include medidas-productos(100vw, 60vh);
+            background-color: $fondo-clarito;
+            @include medidas-border-y-margin (9px, 2%);
+        }
+
+        .contenido_set--2 {
+            margin-top: -14%;
+        }
     }
 
-    .contenido_set--2 {
-        margin-top: -14%;
-    }
-    }
     .productos__subtitulo {
         font-size: 1.2rem;
     }
@@ -65,7 +69,7 @@ margin-bottom: $margin-bottom;
     @mixin medidas-productos-sm($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
 
     .footer_contacto {
         margin-top: 5%;
@@ -77,24 +81,27 @@ margin-bottom: $margin-bottom;
 
 
     .productos__cards {
-        @include medidas-productos-sm(150vw, 67vh);
+        // 67vh
+        @include medidas-productos-sm(150vw, 45vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
     }
 
-.sets {
+    .sets {
 
-    height: 147vh;
-    .sets__cards {
-        @include medidas-productos-sm(100vw, 64vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
+        height: 147vh;
 
-        .contenido_set--2 {
-            margin-top: -14%;
+        .sets__cards {
+            // 64vh
+            @include medidas-productos-sm(100vw, 64vh);
+            background-color: $fondo-clarito;
+            @include medidas-border-y-margin (9px, 2%);
+
+            .contenido_set--2 {
+                margin-top: -14%;
+            }
         }
     }
-}
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +111,7 @@ margin-bottom: $margin-bottom;
         font-size: 3rem;
     }
 
-    
+
     .footer_contacto {
         margin-top: 0%;
     }
@@ -116,25 +123,28 @@ margin-bottom: $margin-bottom;
     @mixin medidas-productos-md($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
 
     .productos__cards {
-        @include medidas-productos-md(60vw, 70vh);
+        // 70 vh
+        @include medidas-productos-md(60vw, 49vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
     }
 
     .sets {
-height: 192vh;
+        height: 192vh;
+
         .sets__cards {
-            @include medidas-productos-md(66vw, 86vh);
+            // 86vh
+            @include medidas-productos-md(66vw, 64vh);
             background-color: $fondo-clarito;
             @include medidas-border-y-margin (9px, 2%);
-            
+
             .cards__img--set1 {
                 padding-bottom: 5%;
             }
-    
+
             .cards__img--set2 {
                 padding-top: 3%;
             }
@@ -160,21 +170,22 @@ height: 192vh;
     @mixin medidas-productos-lg($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
 
     .productos__cards {
         @include medidas-productos-lg(50vw, 70vh);
         background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-       }
+    }
 
-       .sets {
-           height: 203vh;
-    .sets__cards {
-        @include medidas-productos-lg(50vw, 91vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-       }
+    .sets {
+        height: 203vh;
+
+        .sets__cards {
+            @include medidas-productos-lg(50vw, 91vh);
+            background-color: $fondo-clarito;
+            @include medidas-border-y-margin (9px, 2%);
+        }
     }
 }
 
@@ -183,29 +194,35 @@ height: 192vh;
     h1 {
         font-size: 4.6rem;
     }
+
     .footer {
         height: 48vh;
     }
+
     @mixin medidas-productos-xl($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
+
     .productos__cards {
         @include medidas-productos-xl(24vw, 48vh);
-        background-color:  $fondo-clarito;
+        background-color: $fondo-clarito;
         @include medidas-border-y-margin (9px, 2%);
-     }
+    }
 
     .sets {
         height: 75vh;
+
         .sets__cards {
             @include medidas-productos-xl(26vw, 56vh);
             background-color: $fondo-clarito;
             @include medidas-border-y-margin (9px, 2%);
-          }
+        }
+
         .cards__img--set1 {
             padding-bottom: 5%;
-        }    
+        }
+
         .cards__img--set2 {
             padding-top: 0%;
         }
@@ -230,7 +247,7 @@ height: 192vh;
     @mixin medidas-productos-xxl($ancho, $alto) {
         width: $ancho;
         height: $alto;
-        }
+    }
 
     .productos__cards {
         @include medidas-productos-xxl(20vw, 48vh);
@@ -239,19 +256,19 @@ height: 192vh;
     }
 
     .sets {
-    &__cards {
-        @include medidas-productos-xxl(20vw, 57vh);
-        background-color: $fondo-clarito;
-        @include medidas-border-y-margin (9px, 2%);
-    }
+        &__cards {
+            @include medidas-productos-xxl(20vw, 57vh);
+            background-color: $fondo-clarito;
+            @include medidas-border-y-margin (9px, 2%);
+        }
 
-    .cards__img--set2 {
-        padding-top: 0%;
-    }
+        .cards__img--set2 {
+            padding-top: 0%;
+        }
 
-    .contenido_set--2 {
-        margin-top: -14%;
-    
+        .contenido_set--2 {
+            margin-top: -14%;
+
+        }
     }
-}
 }

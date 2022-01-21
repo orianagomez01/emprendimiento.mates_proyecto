@@ -125,7 +125,7 @@ h1 {
     height: 64vh; }
   .productos__cards {
     width: 100vw;
-    height: 56vh;
+    height: 42vh;
     background-color: #f8f3e0;
     border-radius: 9px;
     margin-bottom: 2%; }
@@ -133,7 +133,7 @@ h1 {
     height: 150vh; }
     .sets .sets__cards {
       width: 100vw;
-      height: 65vh;
+      height: 60vh;
       background-color: #f8f3e0;
       border-radius: 9px;
       margin-bottom: 2%; }
@@ -153,7 +153,7 @@ h1 {
     height: 64vh; }
   .productos__cards {
     width: 150vw;
-    height: 67vh;
+    height: 45vh;
     background-color: #f8f3e0;
     border-radius: 9px;
     margin-bottom: 2%; }
@@ -177,7 +177,7 @@ h1 {
     height: 40vh; }
   .productos__cards {
     width: 60vw;
-    height: 70vh;
+    height: 49vh;
     background-color: #f8f3e0;
     border-radius: 9px;
     margin-bottom: 2%; }
@@ -185,7 +185,7 @@ h1 {
     height: 192vh; }
     .sets .sets__cards {
       width: 66vw;
-      height: 86vh;
+      height: 64vh;
       background-color: #f8f3e0;
       border-radius: 9px;
       margin-bottom: 2%; }
