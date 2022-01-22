@@ -525,7 +525,6 @@ span {
 
     .nosotros__img--matesrosa {
         width: 43%;
-        /* 6% */
         margin-bottom: 56%;
         margin-left: 26%;
     }
@@ -533,7 +532,6 @@ span {
     .nosotros__img--matesvangogh {
         width: 48%;
         margin-left: -1%;
-        /* 32% */
         margin-bottom: 74%;
     }
 
@@ -542,7 +540,6 @@ span {
     }
 
     .inicio {
-        /* 120vh */
         height: 88vh;
     }
 
@@ -678,7 +675,6 @@ span {
     }
 
     .inicio {
-        /* 128vh */
         height: 88vh;
     }
 
@@ -697,7 +693,6 @@ span {
 
     .nosotros__img--matesrosa {
         width: 43%;
-        /* 0% */
         margin-bottom: 56%;
         margin-left: 26%;
     }
@@ -706,7 +701,6 @@ span {
     .nosotros__img--matesvangogh {
         width: 48%;
         margin-left: -1%;
-        /* 20% */
         margin-bottom: 74%;
     }
 
@@ -835,7 +829,6 @@ span {
     }
 
     .inicio {
-        /* 56vh */
         height: 45vh;
     }
 
@@ -845,7 +838,6 @@ span {
 
     .nosotros__img--matesrosa {
         width: 34%;
-        /* -32% */
         margin-bottom: 32%;
         margin-left: 23%;
     }
@@ -854,7 +846,6 @@ span {
     .nosotros__img--matesvangogh {
         width: 40%;
         margin-left: -1%;
-        /* -15% */
         margin-bottom: 40%;
     }
 
@@ -1183,15 +1174,11 @@ span {
     .grid {
         grid-template-rows: repeat(4, 1fr);
     }
-
-
-
 }
 
 @media screen and (min-width: 1400px) {
 
     #header {
-        /* width: 100vw; */
         height: 10vh;
     }
 
